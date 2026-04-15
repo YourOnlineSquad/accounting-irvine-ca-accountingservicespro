@@ -1,0 +1,35 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="description" content="{{ page.description }}">
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/mobile.css">
+
+  {% if page.url == "/" %}
+    <link rel="stylesheet" href="/assets/css/homepage.css">
+  {% elsif page.layout == "service" %}
+    <link rel="stylesheet" href="/assets/css/service.css">
+  {% elsif page.layout == "page" %}
+    <link rel="stylesheet" href="/assets/css/page.css">
+  {% elsif page.layout == "blog" %}
+    <link rel="stylesheet" href="/assets/css/blog.css">
+  {% endif %}
+</head>
+
+<body>
+
+  {% include header.html %}
+  {% include nav.html %}
+
+  {{ content }}
+
+  {% include cta.html %}
+  {% include footer.html %}
+
+  <script src="/assets/js/main.js"></script>
+
+</body>
+</html>
