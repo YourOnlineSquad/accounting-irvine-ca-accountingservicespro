@@ -347,10 +347,13 @@ img {
   text-decoration: none;
   font-weight: 600;
   font-size: 1rem;
+  line-height: 1.25;
   padding: 0.62rem 0.55rem;
   border-radius: 6px;
   border: 0;
   background: transparent;
+  cursor: pointer;
+  transition: background-color 140ms ease, color 140ms ease, box-shadow 140ms ease;
 }
 
 .nav-links a:hover,
@@ -392,7 +395,7 @@ img {
   visibility: hidden;
   transform: translateY(0.35rem);
   pointer-events: none;
-  transition: opacity 170ms ease, transform 180ms ease, max-height 220ms ease;
+  transition: opacity 150ms ease, transform 160ms ease, max-height 200ms ease;
 }
 
 .nav-item-services.is-open .services-mega-menu {
@@ -408,26 +411,25 @@ img {
   display: flex;
   align-items: flex-start;
   gap: 0.7rem;
-  padding: 0.72rem;
+  padding: 0.62rem 0.68rem;
   border-radius: 6px;
   color: var(--navy);
-  transition: transform 170ms ease, background-color 170ms ease, box-shadow 170ms ease;
+  transition: background-color 150ms ease, box-shadow 150ms ease;
 }
 
 .service-link:hover,
 .service-link:focus-visible {
-  transform: translateX(2px);
-  background: rgba(241, 158, 59, 0.12);
-  box-shadow: inset 0 0 0 1px rgba(20, 46, 73, 0.08);
+  background: rgba(241, 158, 59, 0.11);
+  box-shadow: inset 0 0 0 1px rgba(20, 46, 73, 0.1);
 }
 
 .service-link svg {
   width: 1.05rem;
   height: 1.05rem;
   flex: 0 0 auto;
-  color: var(--orange);
+  color: #f19e3b;
   margin-top: 0.12rem;
-  filter: drop-shadow(0 0 4px rgba(241, 158, 59, 0.38));
+  filter: drop-shadow(0 0 2px rgba(241, 158, 59, 0.3));
 }
 
 .service-text {
@@ -437,12 +439,13 @@ img {
 }
 
 .service-text strong {
-  font-size: 0.94rem;
+  font-size: 0.9rem;
+  color: #132c46;
 }
 
 .service-text small {
-  color: #6f7a86;
-  font-size: 0.8rem;
+  color: #4f5d6d;
+  font-size: 0.76rem;
 }
 
 .nav-phone {
@@ -453,7 +456,7 @@ img {
   background: var(--orange);
   color: var(--navy);
   border: 1px solid var(--orange);
-  border-radius: 6px;
+  border-radius: 7px;
   text-decoration: none;
   font-weight: 700;
   width: 100%;
@@ -570,49 +573,63 @@ img {
     padding: 0;
     margin-left: auto;
     align-items: center;
-    gap: 0.8rem;
+    gap: 0.7rem;
   }
 
   .nav-links {
     flex-direction: row;
     align-items: center;
-    gap: 0.1rem;
+    gap: 0.06rem;
   }
 
   .nav-links a,
   .services-toggle {
     width: auto;
     font-size: 0.93rem;
-    padding: 0.5rem 0.5rem;
+    padding: 0.54rem 0.5rem;
+    min-height: 2.45rem;
+    display: inline-flex;
+    align-items: center;
   }
 
   .nav-item-services {
     position: relative;
-    padding-bottom: 0.42rem;
-    margin-bottom: -0.42rem;
+    display: flex;
+    align-items: center;
   }
 
   .services-mega-menu {
     position: absolute;
-    top: calc(100% - 0.1rem);
+    top: calc(100% + 0.22rem);
     left: 0;
-    min-width: 26rem;
+    min-width: 22.5rem;
+    max-width: 31rem;
     z-index: 1200;
     padding: 0;
     background: var(--white);
     border: 1px solid var(--border-soft);
     border-top: 3px solid var(--orange);
-    box-shadow: 0 12px 28px rgba(20, 46, 73, 0.2);
+    box-shadow: 0 14px 26px rgba(20, 46, 73, 0.19);
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.5rem;
+    gap: 0.35rem;
     max-height: 0;
     overflow: hidden auto;
   }
 
+  .nav-item-services::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    height: 0.35rem;
+  }
+
   .nav-item-services:hover .services-mega-menu,
-  .nav-item-services:focus-within .services-mega-menu {
+  .nav-item-services:focus-within .services-mega-menu,
+  .nav-item-services.is-open .services-mega-menu {
     max-height: min(70vh, 36rem);
-    padding: 0.82rem;
+    padding: 0.65rem;
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
@@ -645,7 +662,10 @@ img {
     margin-top: 0;
     min-height: 2.5rem;
     white-space: nowrap;
-    padding: 0.55rem 0.88rem;
+    padding: 0.55rem 0.8rem;
+    border-radius: 8px;
+    font-size: 0.92rem;
+    letter-spacing: 0.01em;
   }
 
   .footer-inner {
