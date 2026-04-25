@@ -1,87 +1,80 @@
 ---
 layout: service
-title: Tax Preparation in Irvine CA | Accounting Services Pro
-description: Tax preparation services in Irvine CA for individuals and businesses with accurate filing, documentation review, and proactive planning.
+title: Tax Preparation Irvine CA | Accounting Services Pro
+description: Tax Preparation Irvine CA for business owners and households needing accurate filing, organized documentation, and proactive planning.
 permalink: /services/tax-preparation-irvine-ca/
 ---
 
 <section class="page-hero section">
   <div class="section-inner">
-    <h1>Tax Preparation in Irvine CA</h1>
-    <p>Prepare and file taxes with a structured process that reduces errors, addresses risk areas, and keeps deadlines under control.</p>
+    <h1>Tax Preparation Irvine CA with a Clear Filing Process</h1>
+    <p>Reduce filing stress with organized tax preparation support tailored to Irvine clients and California requirements.</p>
   </div>
 </section>
 
-<section class="section section-problem">
+<section class="section">
   <div class="section-inner">
-    <h2>Why Tax Filing Often Becomes Overwhelming</h2>
-    <p>Incomplete records, late document collection, and changing tax rules can create filing delays and missed deductions. Many clients are unsure which forms apply to their exact situation.</p>
-  </div>
-</section>
-
-<section class="section section-solution">
-  <div class="section-inner">
-    <h2>Our Tax Preparation Support</h2>
+    <header class="section-header"><h2>Common Problems</h2></header>
     <div class="content-grid">
-      <article>
-        <h3>Detailed Document Review</h3>
-        <p>We organize and review your income statements, expense records, and supporting forms before filing.</p>
-      </article>
-      <article>
-        <h3>Accurate Return Preparation</h3>
-        <p>Returns are prepared with a compliance-first approach and attention to allowable tax treatment.</p>
-      </article>
-      <article>
-        <h3>Year-Round Coordination</h3>
-        <p>We coordinate with your <a href="/services/accountant-irvine-ca/">accounting</a> and <a href="/services/bookkeeping-irvine-ca/">bookkeeping</a> records to improve next year’s filing cycle.</p>
-      </article>
+      <article><h3>Documents are gathered too late</h3><p>Late intake creates rushed returns and avoidable errors.</p></article>
+      <article><h3>Deductions are hard to confirm</h3><p>Clients often need help validating records before claiming items.</p></article>
+      <article><h3>Multiple income sources complicate filing</h3><p>Business, payroll, and investment income can require added coordination.</p></article>
     </div>
   </div>
 </section>
 
-<section class="section section-process">
+<section class="section">
   <div class="section-inner">
-    <h2>Tax Preparation Process</h2>
+    <header class="section-header"><h2>How Accounting Services Pro Helps</h2></header>
+    <div class="service-grid">
+      <article class="service-card"><h3>Organized tax intake</h3><p>You receive a practical checklist based on your filing profile.</p></article>
+      <article class="service-card"><h3>Compliance-first preparation</h3><p>Returns are prepared with attention to accuracy, documentation, and timing.</p></article>
+      <article class="service-card"><h3>Cross-service coordination</h3><p>We align records from <a href="/services/bookkeeping-irvine-ca/">Bookkeeping Irvine CA</a> and <a href="/services/business-tax-filing-irvine-ca/">Business Tax Filing Irvine CA</a>.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner">
+    <header class="section-header"><h2>Our Process</h2></header>
     <ol class="process-list">
-      <li>Engagement and checklist tailored to your filing type.</li>
-      <li>Collection and validation of income, deduction, and credit documentation.</li>
-      <li>Preparation and review of draft return with key explanations.</li>
-      <li>Final filing and post-filing guidance for estimated taxes or planning.</li>
+      <li>Set engagement terms and customized document checklist.</li>
+      <li>Collect and verify forms, statements, and supporting records.</li>
+      <li>Prepare draft return and discuss key filing positions.</li>
+      <li>Finalize filing and recommend next-period planning steps.</li>
     </ol>
   </div>
 </section>
 
-<section class="section section-trust-local">
+<section class="section">
   <div class="section-inner">
-    <h2>Local Tax Support With Regional Reach</h2>
-    <p>We primarily serve Irvine clients and businesses across Orange County, while also supporting clients in San Bernardino County and San Diego County who need remote tax preparation support.</p>
+    <header class="section-header"><h2>Local Service Area</h2></header>
+    <p>Tax preparation services are delivered for Irvine residents and businesses, with recurring clients across Orange County, San Bernardino County, and San Diego County.</p>
   </div>
 </section>
 
-<section class="section section-faq">
+<section class="section">
   <div class="section-inner">
-    <h2>Tax Preparation FAQs</h2>
+    <header class="section-header"><h2>FAQs</h2></header>
     <dl class="faq-list">
-      <dt>What should I bring for tax preparation?</dt>
-      <dd>Bring income documents, prior-year returns, deduction records, and any IRS or state notices.</dd>
-      <dt>Can you help if I have multiple income sources?</dt>
-      <dd>Yes. We regularly prepare returns for clients with business income, W-2 income, investments, and rentals.</dd>
-      <dt>Do you handle business and personal tax returns?</dt>
-      <dd>Yes, including coordination where owner and business tax matters overlap.</dd>
-      <dt>Can you help me prepare for next year’s taxes?</dt>
-      <dd>Yes. We provide planning guidance so documentation and estimated payments are more manageable.</dd>
+      <dt>Can you prepare both personal and business returns?</dt>
+      <dd>Yes. We support coordinated filing for individuals and business entities.</dd>
+      <dt>What if I have prior-year filing gaps?</dt>
+      <dd>We can prioritize outstanding returns and sequence required actions.</dd>
+      <dt>How can I make next year easier?</dt>
+      <dd>We recommend year-round coordination with <a href="/services/accountant-irvine-ca/">Accountant Irvine CA</a> services.</dd>
     </dl>
   </div>
 </section>
 
-<section class="section section-cta">
+<section class="section">
   <div class="section-inner">
     <div class="cta-panel">
-      <h2>Get Ahead of Your Next Tax Deadline</h2>
-      <p>Let’s review your filing needs and build a clear preparation timeline.</p>
-      <p><a href="/pages/schedule-consultation/">Schedule a consultation</a> or visit our <a href="/services/business-tax-filing-irvine-ca/">business tax filing service</a>.</p>
+      <h2>Need Tax Preparation Irvine CA Support Before Deadlines?</h2>
+      <p>Call now and we can map out a clean filing timeline based on your documents.</p>
+      <p><a href="tel:+19492372281" class="cta-button">Call Now (949) 237-2281</a></p>
     </div>
   </div>
 </section>
 
-<!-- Schema Suggestions: LocalBusiness, Service, FAQPage -->
+<!-- Schema suggestion for later: Service + FAQPage -->

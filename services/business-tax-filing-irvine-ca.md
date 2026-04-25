@@ -1,87 +1,80 @@
 ---
 layout: service
-title: Business Tax Filing in Irvine CA | Accounting Services Pro
-description: Business tax filing services in Irvine CA for corporations, partnerships, and LLCs with deadline management and compliance-focused preparation.
+title: Business Tax Filing Irvine CA | Accounting Services Pro
+description: Business Tax Filing Irvine CA for LLCs, corporations, and partnerships needing accurate preparation and deadline-focused support.
 permalink: /services/business-tax-filing-irvine-ca/
 ---
 
 <section class="page-hero section">
   <div class="section-inner">
-    <h1>Business Tax Filing in Irvine CA</h1>
-    <p>Tax filing support for business entities that need complete documentation, accurate returns, and deadline-driven coordination.</p>
+    <h1>Business Tax Filing Irvine CA for Entity-Level Compliance</h1>
+    <p>Prepare business returns with structured guidance that reduces filing risk and protects your time.</p>
   </div>
 </section>
 
-<section class="section section-problem">
+<section class="section">
   <div class="section-inner">
-    <h2>Business Filing Risks to Avoid</h2>
-    <p>Entity-specific requirements, missing records, and inconsistent bookkeeping can lead to amended returns, avoidable notices, and late filing penalties. Owners need a process that starts early and stays organized.</p>
-  </div>
-</section>
-
-<section class="section section-solution">
-  <div class="section-inner">
-    <h2>What Our Business Tax Filing Service Includes</h2>
+    <header class="section-header"><h2>Common Problems</h2></header>
     <div class="content-grid">
-      <article>
-        <h3>Entity-Focused Preparation</h3>
-        <p>We prepare returns based on your business structure and reporting obligations.</p>
-      </article>
-      <article>
-        <h3>Supportive Documentation Review</h3>
-        <p>We verify source records and identify gaps before finalizing filings.</p>
-      </article>
-      <article>
-        <h3>Integrated Accounting Coordination</h3>
-        <p>Returns are aligned with your <a href="/services/bookkeeping-irvine-ca/">bookkeeping</a> and <a href="/services/small-business-accountant-irvine-ca/">small business accounting</a> framework.</p>
-      </article>
+      <article><h3>Entity requirements are misunderstood</h3><p>Different filing rules can lead to costly mistakes if handled late.</p></article>
+      <article><h3>Books are incomplete at filing time</h3><p>Inconsistent records slow return preparation and increase uncertainty.</p></article>
+      <article><h3>Timeline management is weak</h3><p>Teams often start too late and rush key review decisions.</p></article>
     </div>
   </div>
 </section>
 
-<section class="section section-process">
+<section class="section">
   <div class="section-inner">
-    <h2>Business Tax Filing Process</h2>
+    <header class="section-header"><h2>How Accounting Services Pro Helps</h2></header>
+    <div class="service-grid">
+      <article class="service-card"><h3>Entity-specific preparation</h3><p>Returns are built around your business structure and obligations.</p></article>
+      <article class="service-card"><h3>Supporting record review</h3><p>We identify gaps before final filing to reduce amendment risk.</p></article>
+      <article class="service-card"><h3>Connected workflows</h3><p>We integrate with <a href="/services/bookkeeping-irvine-ca/">Bookkeeping Irvine CA</a> and <a href="/services/accountant-irvine-ca/">Accountant Irvine CA</a> oversight.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner">
+    <header class="section-header"><h2>Our Process</h2></header>
     <ol class="process-list">
-      <li>Confirm entity type, filing requirements, and timeline.</li>
-      <li>Collect and review books, statements, and supporting schedules.</li>
-      <li>Prepare draft filings and explain key tax positions.</li>
-      <li>Finalize submission and outline next-year planning actions.</li>
+      <li>Confirm entity, deadlines, and filing requirements.</li>
+      <li>Collect statements, books, and required schedules.</li>
+      <li>Prepare draft returns with item-level review.</li>
+      <li>Finalize filing and define next-period tax priorities.</li>
     </ol>
   </div>
 </section>
 
-<section class="section section-trust-local">
+<section class="section">
   <div class="section-inner">
-    <h2>Irvine Business Focus With Broader Regional Service</h2>
-    <p>We support businesses throughout Irvine and Orange County, plus owners in San Bernardino County and San Diego County who need dependable filing support from a California-focused team.</p>
+    <header class="section-header"><h2>Local Service Area</h2></header>
+    <p>We file returns for Irvine companies first and support businesses across Orange County, San Bernardino County, and San Diego County.</p>
   </div>
 </section>
 
-<section class="section section-faq">
+<section class="section">
   <div class="section-inner">
-    <h2>Business Tax Filing FAQs</h2>
+    <header class="section-header"><h2>FAQs</h2></header>
     <dl class="faq-list">
-      <dt>Do you file taxes for LLCs, S corporations, and partnerships?</dt>
-      <dd>Yes. We support multiple entity types and their specific filing requirements.</dd>
-      <dt>Can you help if our books are not finalized yet?</dt>
-      <dd>Yes. We can coordinate cleanup and adjustments before filing.</dd>
-      <dt>How early should we start business tax filing?</dt>
-      <dd>Starting early improves documentation quality and reduces deadline pressure.</dd>
-      <dt>Can you assist with prior-year filing issues?</dt>
-      <dd>Yes. We review prior filings and help determine the right correction path when needed.</dd>
+      <dt>Do you file for LLCs, S corps, and partnerships?</dt>
+      <dd>Yes. We support common entity structures and related forms.</dd>
+      <dt>Can you help if bookkeeping is behind?</dt>
+      <dd>Yes. We can coordinate cleanup before filing through <a href="/services/bookkeeping-irvine-ca/">Bookkeeping Irvine CA</a>.</dd>
+      <dt>What if we also need notice support?</dt>
+      <dd>We can assist through <a href="/services/irs-tax-resolution-irvine-ca/">IRS Tax Resolution Irvine CA</a> when needed.</dd>
     </dl>
   </div>
 </section>
 
-<section class="section section-cta">
+<section class="section">
   <div class="section-inner">
     <div class="cta-panel">
-      <h2>Prepare Your Business Return With Confidence</h2>
-      <p>Let’s organize your filing requirements and timeline before deadlines approach.</p>
-      <p><a href="/pages/schedule-consultation/">Schedule a consultation</a> or review <a href="/services/irs-tax-resolution-irvine-ca/">IRS tax resolution support</a>.</p>
+      <h2>Need Business Tax Filing Irvine CA Help This Season?</h2>
+      <p>Call now to organize timelines and reduce filing pressure.</p>
+      <p><a href="tel:+19492372281" class="cta-button">Call Now (949) 237-2281</a></p>
     </div>
   </div>
 </section>
 
-<!-- Schema Suggestions: LocalBusiness, Service, FAQPage -->
+<!-- Schema suggestion for later: Service + FAQPage -->

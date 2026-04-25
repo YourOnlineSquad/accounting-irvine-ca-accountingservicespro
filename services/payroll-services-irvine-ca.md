@@ -1,87 +1,80 @@
 ---
 layout: service
-title: Payroll Services in Irvine CA | Accounting Services Pro
-description: Payroll services in Irvine CA for accurate processing, tax reporting, and payroll compliance for small and mid-sized employers.
+title: Payroll Services Irvine CA | Accounting Services Pro
+description: Payroll Services Irvine CA for employers needing accurate processing, compliant reporting, and dependable payroll workflows.
 permalink: /services/payroll-services-irvine-ca/
 ---
 
 <section class="page-hero section">
   <div class="section-inner">
-    <h1>Payroll Services in Irvine CA</h1>
-    <p>Reliable payroll operations that help employers pay teams correctly, file on time, and stay organized across reporting periods.</p>
+    <h1>Payroll Services Irvine CA for Accurate, On-Time Payroll</h1>
+    <p>Protect your team and your business with payroll systems designed for accuracy, consistency, and compliance.</p>
   </div>
 </section>
 
-<section class="section section-problem">
+<section class="section">
   <div class="section-inner">
-    <h2>Payroll Issues That Impact Employers</h2>
-    <p>Late payroll runs, incorrect withholding, and reporting gaps can create employee frustration and compliance exposure. Many businesses also struggle to connect payroll data with their bookkeeping records.</p>
-  </div>
-</section>
-
-<section class="section section-solution">
-  <div class="section-inner">
-    <h2>How Our Payroll Service Supports Your Team</h2>
+    <header class="section-header"><h2>Common Problems</h2></header>
     <div class="content-grid">
-      <article>
-        <h3>Structured Payroll Processing</h3>
-        <p>We implement a predictable payroll cycle with clear cutoff dates, approvals, and reporting.</p>
-      </article>
-      <article>
-        <h3>Payroll Tax Coordination</h3>
-        <p>Payroll tax obligations are monitored and integrated with your broader <a href="/services/business-tax-filing-irvine-ca/">business tax filing</a> needs.</p>
-      </article>
-      <article>
-        <h3>Accounting Integration</h3>
-        <p>Payroll records are prepared for cleaner posting to your books and easier month-end close.</p>
-      </article>
+      <article><h3>Payroll deadlines are stressful</h3><p>Last-minute processing increases error risk and team frustration.</p></article>
+      <article><h3>Reporting requirements feel unclear</h3><p>Payroll tax obligations can be difficult to track without a standard workflow.</p></article>
+      <article><h3>Manual systems break at scale</h3><p>Growing headcount often exposes process gaps and rework.</p></article>
     </div>
   </div>
 </section>
 
-<section class="section section-process">
+<section class="section">
   <div class="section-inner">
-    <h2>Payroll Workflow</h2>
+    <header class="section-header"><h2>How Accounting Services Pro Helps</h2></header>
+    <div class="service-grid">
+      <article class="service-card"><h3>Repeatable payroll workflow</h3><p>We establish clear processing steps with checks before each run.</p></article>
+      <article class="service-card"><h3>Reporting alignment</h3><p>Payroll records are kept organized for accurate filings and year-end reporting.</p></article>
+      <article class="service-card"><h3>Financial integration</h3><p>Payroll data ties into <a href="/services/bookkeeping-irvine-ca/">Bookkeeping Irvine CA</a> and <a href="/services/accountant-irvine-ca/">Accountant Irvine CA</a> reporting.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner">
+    <header class="section-header"><h2>Our Process</h2></header>
     <ol class="process-list">
-      <li>Review your current payroll setup and employee classifications.</li>
-      <li>Establish payroll calendar and required input timeline.</li>
-      <li>Process payroll with review controls before release.</li>
-      <li>Support reporting, reconciliations, and year-end payroll documentation.</li>
+      <li>Review payroll setup, schedules, and classifications.</li>
+      <li>Create a documented approval and processing timeline.</li>
+      <li>Run payroll with validation controls each cycle.</li>
+      <li>Maintain records for compliance and planning.</li>
     </ol>
   </div>
 </section>
 
-<section class="section section-trust-local">
+<section class="section">
   <div class="section-inner">
-    <h2>Local Employer Support in Irvine</h2>
-    <p>We primarily assist Irvine and Orange County employers, including businesses with distributed teams in San Bernardino County and San Diego County.</p>
+    <header class="section-header"><h2>Local Service Area</h2></header>
+    <p>Payroll services are focused in Irvine and Orange County, with remote client support in San Bernardino County and San Diego County.</p>
   </div>
 </section>
 
-<section class="section section-faq">
+<section class="section">
   <div class="section-inner">
-    <h2>Payroll Service FAQs</h2>
+    <header class="section-header"><h2>FAQs</h2></header>
     <dl class="faq-list">
-      <dt>Can you take over payroll if we currently process it internally?</dt>
-      <dd>Yes. We can transition your process and establish a clear monthly and year-end routine.</dd>
-      <dt>Do you handle payroll for hourly and salaried employees?</dt>
-      <dd>Yes. We support mixed payroll structures with role-specific payroll tracking.</dd>
-      <dt>How does payroll connect to bookkeeping?</dt>
-      <dd>Payroll journals and reports are prepared to align with your accounting records.</dd>
-      <dt>Can payroll support be bundled with accounting services?</dt>
-      <dd>Yes. Many clients combine payroll with <a href="/services/accountant-irvine-ca/">accountant services</a> for consistency.</dd>
+      <dt>Can you help with payroll setup transitions?</dt>
+      <dd>Yes. We support migration planning and post-transition verification.</dd>
+      <dt>Do you handle mixed hourly and salaried teams?</dt>
+      <dd>Yes. We support varied compensation structures and payroll records.</dd>
+      <dt>What related services improve payroll results?</dt>
+      <dd>Clients often combine payroll with <a href="/services/tax-preparation-irvine-ca/">Tax Preparation Irvine CA</a> and <a href="/services/business-tax-filing-irvine-ca/">Business Tax Filing Irvine CA</a>.</dd>
     </dl>
   </div>
 </section>
 
-<section class="section section-cta">
+<section class="section">
   <div class="section-inner">
     <div class="cta-panel">
-      <h2>Improve Payroll Accuracy and Reliability</h2>
-      <p>Speak with our team about payroll setup, transition, or ongoing support.</p>
-      <p><a href="/pages/schedule-consultation/">Schedule a consultation</a> or <a href="/pages/contact/">contact us</a>.</p>
+      <h2>Need Payroll Services Irvine CA That Stay On Schedule?</h2>
+      <p>Call now to reduce payroll stress and improve consistency.</p>
+      <p><a href="tel:+19492372281" class="cta-button">Call Now (949) 237-2281</a></p>
     </div>
   </div>
 </section>
 
-<!-- Schema Suggestions: LocalBusiness, Service, FAQPage -->
+<!-- Schema suggestion for later: Service + FAQPage -->
