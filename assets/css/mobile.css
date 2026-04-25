@@ -36,3 +36,42 @@
     padding: 1.5rem;
   }
 }
+
+@media (max-width: 40rem) {
+  .nav-inner {
+    padding: 0.7rem 0.9rem;
+  }
+
+  .brand {
+    font-size: 1.03rem;
+    max-width: calc(100% - 8rem);
+    line-height: 1.2;
+  }
+
+  .nav-links a,
+  .services-toggle {
+    padding: 0.72rem 0.55rem;
+  }
+
+  .services-mega-menu {
+    gap: 0.25rem;
+    padding: 0.42rem;
+  }
+
+  .service-link {
+    padding: 0.62rem 0.45rem;
+  }
+
+  .nav-phone {
+    min-height: 3rem;
+    font-size: 1.03rem;
+  }
+
+  .footer-inner {
+    gap: 1.4rem;
+  }
+
+  .footer-column ul {
+    gap: 0.35rem;
+  }
+}
