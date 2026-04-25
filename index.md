@@ -2,6 +2,7 @@
 layout: default
 title: Expert Accounting Services in Irvine CA | Accounting Services Pro
 description: Premium accounting, tax preparation, bookkeeping, and payroll services for businesses and individuals in Irvine, Orange County, and Southern California.
+hide_global_cta: true
 ---
 
 <section class="home-hero">
@@ -161,37 +162,21 @@ description: Premium accounting, tax preparation, bookkeeping, and payroll servi
     <h2 class="section-title text-center">Our Client-First Process</h2>
     <div class="process-grid">
       <div class="process-step">
-        <svg class="icon-md" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#f19e3b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-        </svg>
         <div class="step-number">1</div>
         <h3>Consultation</h3>
         <p>We discuss your specific pain points, goals, and current financial landscape.</p>
       </div>
       <div class="process-step">
-        <svg class="icon-md" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#f19e3b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="11" cy="11" r="8"></circle>
-          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-        </svg>
         <div class="step-number">2</div>
         <h3>Record Review</h3>
         <p>A thorough diagnostic of your existing books, previous tax returns, and financial health.</p>
       </div>
       <div class="process-step">
-        <svg class="icon-md" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#f19e3b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="12" cy="12" r="10"></circle>
-          <circle cx="12" cy="12" r="6"></circle>
-          <circle cx="12" cy="12" r="2"></circle>
-        </svg>
         <div class="step-number">3</div>
         <h3>Custom Plan</h3>
         <p>We develop a tailored accounting or tax strategy designed to resolve issues and optimize your finances.</p>
       </div>
       <div class="process-step">
-        <svg class="icon-md" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#f19e3b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
-          <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
-        </svg>
         <div class="step-number">4</div>
         <h3>Ongoing Support</h3>
         <p>Continuous bookkeeping, timely filing, and strategic advice to keep you compliant and growing.</p>
