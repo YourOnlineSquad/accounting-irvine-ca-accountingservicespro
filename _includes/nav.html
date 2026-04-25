@@ -1,17 +1,60 @@
-<nav>
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/pages/about/">About</a></li>
-    <li><a href="/services/accountant-irvine-ca/">Services</a></li>
-    <li><a href="/services/tax-preparation-irvine-ca/">Tax Preparation</a></li>
-    <li><a href="/services/bookkeeping-irvine-ca/">Bookkeeping</a></li>
-    <li><a href="/services/small-business-accountant-irvine-ca/">Small Business Accounting</a></li>
-    <li><a href="/services/payroll-services-irvine-ca/">Payroll</a></li>
-    <li><a href="/services/business-tax-filing-irvine-ca/">Business Tax Filing</a></li>
-    <li><a href="/services/irs-tax-resolution-irvine-ca/">IRS Tax Resolution</a></li>
-    <li><a href="/pages/faq/">FAQ</a></li>
-    <li><a href="/pages/contact/">Contact</a></li>
-    <li><a href="/pages/schedule-consultation/">Schedule Consultation</a></li>
-    <li><a href="tel:+19492372281">Call Now (949) 237-2281</a></li>
-  </ul>
+<nav class="site-nav" aria-label="Primary">
+  <div class="nav-inner">
+    <a class="brand" href="/" aria-label="Accounting Services Pro home">Accounting Services Pro</a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">
+      <span class="menu-toggle-label">Menu</span>
+      <span class="menu-toggle-bars" aria-hidden="true"></span>
+    </button>
+
+    <div class="nav-panel" id="primary-menu">
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/pages/about/">About</a></li>
+
+        <li class="nav-item-services">
+          <button class="services-toggle" type="button" aria-expanded="false" aria-controls="services-mega-menu">
+            Services
+            <span class="services-caret" aria-hidden="true">▾</span>
+          </button>
+          <div class="services-mega-menu" id="services-mega-menu">
+            <a href="/services/accountant-irvine-ca/" class="service-link">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4zM8 9h8M8 13h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              <span>Accounting Services</span>
+            </a>
+            <a href="/services/tax-preparation-irvine-ca/" class="service-link">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h8l3 3v13H7zM15 4v4h4M10 13h5M10 17h4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              <span>Tax Preparation</span>
+            </a>
+            <a href="/services/bookkeeping-irvine-ca/" class="service-link">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5h14v14H5zM5 10h14M9 5v14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              <span>Bookkeeping</span>
+            </a>
+            <a href="/services/small-business-accountant-irvine-ca/" class="service-link">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h16M6 20V9h12v11M9 9V6h6v3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              <span>Small Business Accounting</span>
+            </a>
+            <a href="/services/payroll-services-irvine-ca/" class="service-link">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16v13H4zM8 4h8M8 12h8M8 16h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              <span>Payroll Services</span>
+            </a>
+            <a href="/services/business-tax-filing-irvine-ca/" class="service-link">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M5 8h14M5 16h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              <span>Business Tax Filing</span>
+            </a>
+            <a href="/services/irs-tax-resolution-irvine-ca/" class="service-link">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 4v5c0 5-3.5 7.8-8 9-4.5-1.2-8-4-8-9V7zM9 12l2 2 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>IRS Tax Resolution</span>
+            </a>
+          </div>
+        </li>
+
+        <li><a href="/pages/faq/">FAQ</a></li>
+        <li><a href="/pages/contact/">Contact</a></li>
+        <li><a href="/pages/schedule-consultation/">Schedule Consultation</a></li>
+      </ul>
+
+      <a class="nav-phone" href="tel:+19492372281">(949) 237-2281</a>
+    </div>
+  </div>
 </nav>
