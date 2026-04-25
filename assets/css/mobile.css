@@ -1,71 +1,53 @@
 /* Mobile Specific Overrides for Homepage */
 
-@media (max-width: 992px) {
-  /* Collapse Grid Layouts */
-  .hero-container,
-  .two-col-layout {
-    grid-template-columns: 1fr;
-    gap: 3rem;
-  }
-  
-  .process-grid {
-    grid-template-columns: repeat(2, 1fr); 
-  }
+@media (max-width: 1024px) {
+  .hero-container, .two-col-layout { gap: 3rem; }
+  .hero-content h1 { font-size: 3.2rem; }
+  .team-grid { gap: 2rem; }
+}
 
-  .home-hero, .pain-points, .services-overview, .local-expertise, .our-process, .trust-eeat, .final-cta {
-    padding: 60px 0; 
-  }
+@media (max-width: 992px) {
+  /* Collapse Grid Layouts for Tablet */
+  .hero-container, .two-col-layout { grid-template-columns: 1fr; gap: 3.5rem; }
+  .process-grid { grid-template-columns: repeat(2, 1fr); gap: 3rem; }
+  .team-grid { grid-template-columns: repeat(2, 1fr); } /* 2x2 Founder Grid on Tablet */
   
-  .hero-content h1 {
-    font-size: 2.8rem;
-  }
+  /* Consistent rhythmic padding for tablet */
+  .home-hero, .pain-points, .services-overview, .local-expertise, .our-process, .trust-eeat, .team-section { padding: 80px 0; }
+  .final-cta { padding: 100px 0; }
+  
+  .hero-content h1 { font-size: 2.8rem; }
+  .hero-subtitle { max-width: 100%; }
 }
 
 @media (max-width: 768px) {
   /* Full Mobile Stack (1 Column) */
-  .process-grid,
-  .services-grid {
-    grid-template-columns: 1fr;
-  }
+  .process-grid, .services-grid, .team-grid { grid-template-columns: 1fr; }
+  .home-hero, .pain-points, .services-overview, .local-expertise, .our-process, .trust-eeat, .team-section { padding: 60px 0; }
 
-  .hero-content h1 {
-    font-size: 2.2rem;
-  }
+  .hero-content h1 { font-size: 2.4rem; }
+  .section-title { font-size: 2.2rem; }
 
-  .section-title {
-    font-size: 2rem;
-  }
+  /* Typography adjustments for narrow screens */
+  .hero-subtitle, .section-intro, .local-text p, .trust-text p, .final-cta p { font-size: 1.1rem; }
 
-  .hero-actions,
-  .cta-buttons {
-    flex-direction: column;
-    width: 100%;
-  }
+  /* Full width buttons */
+  .hero-actions, .cta-buttons { flex-direction: column; width: 100%; gap: 1rem; }
+  .btn { width: 100%; text-align: center; }
 
-  .btn {
-    width: 100%;
-    text-align: center;
-  }
+  /* Centering on mobile for better balance */
+  .content-block::before { margin: 0 auto 1.5rem auto; }
+  .content-block svg { margin: 0 auto 1.5rem auto; }
+  .content-block h3, .content-block p, .process-step h3, .process-step p { text-align: center; }
+  .process-step { align-items: center; }
 
   /* Swap order for trust section so image is below text on mobile */
-  .trust-eeat .two-col-layout {
-    display: flex;
-    flex-direction: column-reverse;
-  }
+  .trust-eeat .two-col-layout { display: flex; flex-direction: column-reverse; }
 
-  /* Reduce image placeholder heights for mobile */
-  .image-placeholder-large, 
-  .image-placeholder-medium, 
-  .image-placeholder-tall {
-    min-height: 250px;
-    padding: 1rem;
-  }
-
-  .content-block {
-    padding: 2rem 1.5rem;
-  }
+  /* Reduce image placeholder heights for mobile readability */
+  .image-placeholder-large, .image-placeholder-medium, .image-placeholder-tall { min-height: 280px; padding: 1rem; }
   
-  .service-card {
-    padding: 1.5rem;
-  }
+  /* CTA Adjustments */
+  .final-cta { padding: 80px 0; }
+  .final-cta h2 { font-size: 2.4rem; }
 }
