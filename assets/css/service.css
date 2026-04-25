@@ -5,8 +5,9 @@ body {
 .process-list {
   background: var(--white);
   border: 1px solid var(--border-soft);
-  border-radius: 0.8rem;
-  padding: 1rem 1.25rem 0.25rem 2rem;
+  border-radius: 0.5rem;
+  padding: 1.25rem 1.5rem 0.4rem 2rem;
+  box-shadow: 0 10px 26px rgba(20, 46, 73, 0.08);
 }
 
 .process-list li::marker {
@@ -16,4 +17,5 @@ body {
 
 .service-grid .service-card {
   min-height: 100%;
+  padding: 2rem;
 }
