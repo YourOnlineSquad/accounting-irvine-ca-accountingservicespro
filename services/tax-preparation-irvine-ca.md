@@ -3,152 +3,58 @@ layout: service
 title: Tax Preparation Irvine CA | Accounting Services Pro
 description: Tax Preparation Irvine CA for business owners and households needing accurate filing, organized documentation, and proactive planning.
 permalink: /services/tax-preparation-irvine-ca/
+hero_title: "Tax Preparation Irvine CA With a Clear Filing Workflow"
+hero_copy: "Reduce filing stress with organized intake, accurate preparation, and practical planning."
+hero_cta_text: "Call (949) 237-2281"
+hero_cta_url: "tel:+19492372281"
+hero_image_alt: "Tax preparation consultation placeholder"
+problems:
+  - title: "Documents arrive too late"
+    copy: "Rushed filing increases avoidable mistakes."
+  - title: "Deductions are uncertain"
+    copy: "Missing documentation weakens filing confidence."
+solution_heading: "Why Organized Tax Preparation Works Better"
+solution_image_alt: "Tax preparation workflow placeholder"
+solution_paragraphs:
+  - "A clear intake process keeps filing documentation complete."
+  - "Proactive review reduces amendments and missed opportunities."
+benefits_heading: "How Accounting Services Pro Helps"
+benefit_cards:
+  - title: "Structured tax intake"
+    copy: "Collect records early with a simple checklist-driven process."
+  - title: "Accurate preparation"
+    copy: "Prepare returns carefully with clear communication at each step."
+  - title: "Deduction support"
+    copy: "Document positions to strengthen filing confidence."
+  - title: "Planning insights"
+    copy: "Use this year's return to improve next year's outcomes."
+process_steps:
+  - title: "Collect"
+    copy: "Gather income, expense, and prior filing records."
+  - title: "Review"
+    copy: "Identify gaps, questions, and planning opportunities."
+  - title: "Prepare"
+    copy: "Complete return drafts and confirm details together."
+  - title: "File"
+    copy: "Finalize submission and share next-step planning notes."
+local_trust:
+  - title: "Irvine support"
+    copy: "Local service with direct communication during tax season."
+  - title: "Orange County coverage"
+    copy: "Reliable preparation support for nearby clients."
+  - title: "Remote flexibility"
+    copy: "Secure collaboration for San Bernardino and San Diego counties."
+faqs:
+  - question: "Can you prepare both personal and business returns?"
+    answer: "Yes, we support both when records and scope align."
+  - question: "What if my records are not organized?"
+    answer: "We provide a document plan before preparation begins."
+  - question: "Do you offer post-filing planning?"
+    answer: "Yes, we recommend actions to improve the next filing year."
+final_cta_heading: "Get Tax Preparation Irvine CA Support"
+final_cta_copy: "Call now to start your organized filing plan."
+final_cta_text: "Call Now (949) 237-2281"
+final_cta_url: "tel:+19492372281"
 ---
 
-<section class="page-hero section">
-  <div class="section-inner">
-    <div class="content-grid">
-      <article>
-        <h1><span class="gradient-text">Tax Preparation Irvine CA With a Clear Filing Workflow</span></h1>
-        <p>Reduce filing stress with organized intake, accurate preparation, and practical planning.</p>
-        <p><a href="tel:+19492372281" class="cta-button">Call (949) 237-2281</a></p>
-      </article>
-      <div class="image-placeholder" role="img" aria-label="Professional accounting consultation placeholder"></div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="section-inner">
-    <header class="section-header"><h2>Common Problems</h2></header>
-    <div class="content-grid">
-      <article>
-        <h3>Documents arrive too late</h3>
-        <p>Rushed filing increases avoidable mistakes.</p>
-      </article>
-      <article>
-        <h3>Deductions are uncertain</h3>
-        <p>Missing documentation weakens filing confidence.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="section-inner">
-    <div class="content-grid">
-      <article>
-        <h2>Why Clients Switch to a Better Structure</h2>
-        <p>Clear workflows reduce surprises, delays, and rework.</p>
-        <p>Simple monthly rhythms improve visibility and confidence.</p>
-      </article>
-      <div class="image-placeholder" role="img" aria-label="Financial planning workspace placeholder"></div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="section-inner">
-    <header class="section-header"><h2>How Accounting Services Pro Helps</h2></header>
-    <div class="service-grid">
-      <article class="service-card">
-        <h3>Customized intake checklist</h3>
-        <p>Collect what matters based on your filing profile.</p>
-      </article>
-
-      <article class="service-card">
-        <h3>Accuracy-first return prep</h3>
-        <p>Prepare returns with compliance-focused review.</p>
-      </article>
-    </div>
-    <div class="service-grid">
-
-      <article class="service-card">
-        <h3>Draft and review meeting</h3>
-        <p>Confirm positions before submission.</p>
-      </article>
-
-      <article class="service-card">
-        <h3>Year-ahead planning</h3>
-        <p>Leave with practical steps for the next cycle.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="section-inner">
-    <div class="content-grid">
-      <div class="image-placeholder" role="img" aria-label="Team meeting and financial review placeholder"></div>
-      <article>
-        <h2>Simple Process, Consistent Results</h2>
-        <p>We keep communication direct and deadlines visible at every step.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="section-inner">
-    <header class="section-header"><h2>Our Process</h2></header>
-    <ol class="process-list">
-      <li>Initial review of priorities, records, and timelines.</li>
-      <li>Structured plan for cleanup, controls, and milestones.</li>
-      <li>Recurring monthly execution with clear checkpoints.</li>
-      <li>Ongoing advisory updates to stay proactive.</li>
-    </ol>
-  </div>
-</section>
-
-<section class="section">
-  <div class="section-inner">
-    <header class="section-header"><h2>Local Trust and Coverage</h2></header>
-    <div class="trust-grid">
-      <article>
-        <h3>Local Knowledge</h3>
-        <p>Irvine residents and businesses served first.</p>
-      </article>
-      <article>
-        <h3>Regional Reach</h3>
-        <p>Orange County clients supported each filing season.</p>
-      </article>
-      <article>
-        <h3>Reliable Access</h3>
-        <p>Remote filing support for San Bernardino and San Diego counties.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="section-inner">
-    <header class="section-header"><h2>FAQs</h2></header>
-    <dl class="faq-list">
-      <dt>Do you prepare personal and business returns?</dt>
-      <dd>Yes, including coordinated owner/business filing.</dd>
-      <dt>Can you help with prior-year gaps?</dt>
-      <dd>Yes, we sequence outstanding years strategically.</dd>
-      <dt>How do we make next year easier?</dt>
-      <dd>We set a recordkeeping cadence right after filing.</dd>
-    </dl>
-  </div>
-</section>
-
-<section class="section">
-  <div class="section-inner">
-    <div class="cta-panel">
-      <h2>Book Tax Preparation Irvine CA Before Key Deadlines</h2>
-      <p>Call now for a focused conversation and next-step plan.</p>
-      <p><a href="tel:+19492372281" class="cta-button">Call Now (949) 237-2281</a></p>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="section-inner">
-    <div class="cta-panel">
-      <p>Need to get tax filing organized now?</p>
-      <p><a href="tel:+19492372281" class="cta-button">Call (949) 237-2281</a></p>
-    </div>
-  </div>
-</section>
+{% include local-seo-page.html %}
