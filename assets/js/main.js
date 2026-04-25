@@ -20,9 +20,20 @@
 
   if (servicesItem && servicesToggle) {
     servicesToggle.addEventListener('click', function () {
-      if (window.matchMedia('(min-width: 48rem)').matches) return;
       var servicesOpen = servicesItem.classList.toggle('is-open');
       servicesToggle.setAttribute('aria-expanded', String(servicesOpen));
     });
   }
+
+  document.addEventListener('keydown', function (event) {
+    if (event.key !== 'Escape') return;
+
+    if (servicesItem) servicesItem.classList.remove('is-open');
+    if (servicesToggle) servicesToggle.setAttribute('aria-expanded', 'false');
+
+    if (navPanel && navPanel.classList.contains('is-open')) {
+      navPanel.classList.remove('is-open');
+      if (menuToggle) menuToggle.setAttribute('aria-expanded', 'false');
+    }
+  });
 })();
