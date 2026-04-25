@@ -1,101 +1,155 @@
-I am building a Jekyll website on GitHub Pages for Accounting Services Pro in Irvine CA.
+---
+layout: default
+title: Expert Accounting Services in Irvine CA | Accounting Services Pro
+description: Premium accounting, tax preparation, bookkeeping, and payroll services for businesses and individuals in Irvine, Orange County, and Southern California.
+---
 
-I want you to redesign ONLY the homepage structure and homepage styling direction.
+<section class="home-hero">
+  <div class="hero-container container">
+    <div class="hero-content">
+      <h1>Premium Accounting Services in Irvine, CA</h1>
+      <p class="hero-subtitle">Clear financial records, compliant tax preparation, and strategic bookkeeping to help businesses and professionals thrive across Southern California.</p>
+      <div class="hero-actions">
+        <a href="tel:+19492372281" class="btn btn-primary">Call (949) 237-2281</a>
+        <a href="/contact" class="btn btn-secondary">Schedule Consultation</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="image-placeholder image-placeholder-large">
+        <span>[ Image Placeholder: Professional Office / Finance Visual ]</span>
+      </div>
+    </div>
+  </div>
+</section>
 
-Use my existing brand colors:
-Dark blue: #142e49
-Orange: #f19e3b
-White: #ffffff
-Gray: #a7a8a7
+<section class="pain-points section-light">
+  <div class="container">
+    <h2 class="section-title">Are Disorganized Finances Holding You Back?</h2>
+    <div class="two-col-layout">
+      <div class="content-block large-block">
+        <h3>The Cost of Chaos & Missed Deadlines</h3>
+        <p>Running a business is complex enough without the looming threat of IRS notices, payroll confusion, and late tax filings. When books are disorganized, deadlines are easily missed, resulting in costly penalties and unnecessary stress that drains your focus away from your core business.</p>
+      </div>
+      <div class="content-block large-block">
+        <h3>The Risk of Unclear Financial Records</h3>
+        <p>Making critical decisions based on outdated or inaccurate financial data is like driving blind. Without meticulous bookkeeping and a clear financial picture, you miss growth opportunities, struggle to secure financing, and overpay on taxes due to missed deductions and poor planning.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-Business phone:
-(949) 237-2281
-Phone link:
-tel:+19492372281
+<section class="services-overview">
+  <div class="container">
+    <h2 class="section-title">Comprehensive Financial Solutions</h2>
+    <p class="section-intro">We provide meticulous problem-solving for your specific financial needs, ensuring accuracy and peace of mind.</p>
+    
+    <div class="services-grid">
+      <a href="/accounting-services" class="service-card large-card">
+        <h3>Accounting Services</h3>
+        <p>Full-cycle accounting designed to keep your business financially healthy and structurally sound.</p>
+      </a>
+      <a href="/tax-preparation" class="service-card large-card">
+        <h3>Tax Preparation</h3>
+        <p>Accurate, strategic tax returns for businesses, families, and professionals to minimize liability.</p>
+      </a>
+      <a href="/bookkeeping" class="service-card large-card">
+        <h3>Bookkeeping</h3>
+        <p>Meticulous organization of your daily financial transactions, ensuring your records are always audit-ready.</p>
+      </a>
+      <a href="/small-business-accounting" class="service-card large-card">
+        <h3>Small Business Accounting</h3>
+        <p>Customized financial strategies and reporting specifically tailored for growing enterprises.</p>
+      </a>
+      <a href="/payroll-services" class="service-card large-card">
+        <h3>Payroll Services</h3>
+        <p>Reliable, compliant payroll processing so your team is paid on time, every time, without the administrative headache.</p>
+      </a>
+      <a href="/business-tax-filing" class="service-card large-card">
+        <h3>Business Tax Filing</h3>
+        <p>Navigating complex corporate, LLC, and partnership tax codes to ensure strict compliance.</p>
+      </a>
+      <a href="/irs-tax-resolution" class="service-card large-card">
+        <h3>IRS Tax Resolution</h3>
+        <p>Professional representation and proven strategies to resolve audits, notices, and back-tax issues.</p>
+      </a>
+    </div>
+  </div>
+</section>
 
-Important:
-Do NOT make this look like a generic AI landing page.
-Do NOT use tiny cards everywhere.
-Do NOT use cramped 3 column sections with long paragraphs.
-Do NOT use pill buttons.
-Buttons should be rectangular with slight rounded corners.
-Orange should be an accent color, not used everywhere.
-The site should feel professional, premium, clean, and trustworthy for an accounting and tax business.
+<section class="local-expertise section-dark">
+  <div class="container">
+    <div class="two-col-layout align-center">
+      <div class="local-text">
+        <h2 class="section-title text-white">Local Expertise for Southern California</h2>
+        <p class="text-white">Based in Irvine, CA, we understand the unique economic landscape and stringent California state tax requirements that local businesses face. Whether you are operating right here in Orange County, expanding into San Bernardino County, or serving clients down in San Diego County, regional knowledge matters.</p>
+        <p class="text-white">We help Southern California business owners and families navigate state-specific compliance, local tax codes, and regional financial planning with precision.</p>
+      </div>
+      <div class="local-visual">
+        <div class="image-placeholder image-placeholder-medium">
+          <span>[ Image Placeholder: Irvine/OC Local Business Visual ]</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-Existing Jekyll structure:
-index.md is the homepage.
-assets/css/style.css is global styling.
-assets/css/homepage.css is homepage styling.
-assets/css/mobile.css is mobile overrides.
-Header, nav, and footer already exist.
+<section class="our-process section-light">
+  <div class="container">
+    <h2 class="section-title text-center">Our Client-First Process</h2>
+    <div class="process-grid">
+      <div class="process-step">
+        <div class="step-number">1</div>
+        <h3>Consultation</h3>
+        <p>We discuss your specific pain points, goals, and current financial landscape.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-number">2</div>
+        <h3>Record Review</h3>
+        <p>A thorough diagnostic of your existing books, previous tax returns, and financial health.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-number">3</div>
+        <h3>Custom Plan</h3>
+        <p>We develop a tailored accounting or tax strategy designed to resolve issues and optimize your finances.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-number">4</div>
+        <h3>Ongoing Support</h3>
+        <p>Continuous bookkeeping, timely filing, and strategic advice to keep you compliant and growing.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-I want the homepage to be unique from the service pages.
+<section class="trust-eeat">
+  <div class="container">
+    <div class="two-col-layout">
+      <div class="trust-visual">
+         <div class="image-placeholder image-placeholder-tall">
+          <span>[ Image Placeholder: Professional Tax Prep / Accounting Visual ]</span>
+        </div>
+      </div>
+      <div class="trust-text">
+        <h2 class="section-title">Committed to Accuracy & Compliance</h2>
+        <p>In the financial world, authority is built on accuracy, and trust is earned through proactive communication. We prioritize meticulous business record keeping and strict adherence to both federal IRS codes and complex California tax requirements.</p>
+        <ul class="trust-list">
+          <li><strong>Meticulous Organization:</strong> We transform financial chaos into clear, actionable data.</li>
+          <li><strong>Proactive Communication:</strong> You will never have to guess the status of your accounts or filings.</li>
+          <li><strong>Strict Deadline Management:</strong> We track and manage every compliance date so you don't have to.</li>
+          <li><strong>Authoritative Representation:</strong> Experienced guidance through complex tax situations and IRS inquiries.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 
-Homepage goal:
-Rank locally for Accounting Services Irvine CA while also supporting Orange County, San Bernardino County, and San Diego County naturally.
-Speak to business owners, families, professionals, and people who need accounting, tax preparation, bookkeeping, payroll, business tax filing, or IRS tax help.
-Follow Google E E A T.
-Make the copy useful, problem solving, and specific.
-Avoid generic phrases unless they are explained clearly.
-
-Create a homepage with 7 sections:
-
-1. Hero section
-Large H1 focused on Accounting Services Irvine CA.
-Short supporting paragraph.
-CTA button with phone number.
-Add an image placeholder area on the right for future office, bookkeeping, tax, or business finance image.
-
-2. Pain point section
-Explain the common problems caused by disorganized books, missed deadlines, payroll confusion, IRS notices, and unclear financial records.
-Use 2 large content blocks, not tiny cards.
-
-3. Services overview section
-Introduce the main services with clean cards and internal links:
-Accounting Services
-Tax Preparation
-Bookkeeping
-Small Business Accounting
-Payroll Services
-Business Tax Filing
-IRS Tax Resolution
-
-4. Irvine and Orange County local section
-Explain why local knowledge matters for Irvine businesses and Orange County clients.
-Mention Southern California naturally.
-
-5. Process section
-Four clear steps:
-Consultation
-Record review
-Accounting or tax plan
-Ongoing support or filing help
-
-6. Trust and E E A T section
-Build confidence with accuracy, organization, communication, deadlines, California tax requirements, and business record keeping.
-
-7. Final CTA section
-Strong call to action.
-Phone CTA and Schedule Consultation link.
-
-Design direction:
-Use wider content sections.
-Use strong spacing.
-Use alternating dark and light sections.
-Use image placeholders so the page does not feel text only.
-Use 2 column layouts on desktop where helpful.
-Use 1 column on mobile.
-Make cards larger and easier to read.
-Use fewer cards with better hierarchy.
-Keep CTA buttons rectangular with 6px to 8px border radius.
-Make the homepage feel custom and premium.
-
-Output:
-1. Updated index.md code only.
-2. Updated homepage.css code only.
-3. Updated mobile.css code only if needed.
-
-Do not change header, nav, footer, layouts, service pages, or JavaScript.
-Do not add inline CSS.
-Do not add full HTML document wrappers.
-Only provide code that fits inside the existing Jekyll structure.
+<section class="final-cta section-dark text-center">
+  <div class="container">
+    <h2 class="text-white">Ready to Take Control of Your Finances?</h2>
+    <p class="text-white">Partner with an Irvine accounting team that prioritizes your success and peace of mind.</p>
+    <div class="cta-buttons">
+      <a href="tel:+19492372281" class="btn btn-primary btn-large">Call Now: (949) 237-2281</a>
+      <a href="/contact" class="btn btn-secondary btn-large">Schedule a Consultation</a>
+    </div>
+  </div>
+</section>
