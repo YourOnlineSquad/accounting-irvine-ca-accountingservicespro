@@ -2,7 +2,7 @@
 layout: default
 title: Expert Accounting Services in Irvine CA | Accounting Services Pro
 description: Premium accounting, tax preparation, bookkeeping, and payroll services for businesses and individuals in Irvine, Orange County, and Southern California.
-hide_global_cta: true
+hide_global_cta: false
 ---
 
 <section class="home-hero">
@@ -13,7 +13,7 @@ hide_global_cta: true
       <p class="hero-subtitle">Clear financial records, compliant tax preparation, and strategic bookkeeping to help businesses and professionals thrive across Orange County and Southern California.</p>
       <div class="hero-actions">
         <a href="tel:+19492372281" class="btn btn-primary">(949) 237-2281</a>
-        <a href="/pages/schedule-consultation/" class="btn btn-secondary">Schedule Consultation</a>
+        <a href="{{ '/pages/schedule-consultation/' | relative_url }}" class="btn btn-secondary">Schedule Consultation</a>
       </div>
     </div>
     <div class="hero-visual">
@@ -55,38 +55,43 @@ hide_global_cta: true
   <div class="bg-glow services-glow"></div>
   <div class="container">
     <h2 class="section-title">Comprehensive Financial Solutions</h2>
-    <p class="section-intro">We provide meticulous problem-solving for your specific financial needs, ensuring accuracy and peace of mind across Orange County.</p>
+    <p class="section-intro">We provide meticulous problem solving for your specific financial needs, ensuring accuracy and peace of mind across Orange County.</p>
     
     <div class="services-grid">
-      <a href="/services/accountant-irvine-ca/" class="service-card large-card hover-lift">
+      <a href="{{ '/services/accountant-irvine-ca/' | relative_url }}" class="service-card large-card hover-lift">
         <svg class="icon-lg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#f19e3b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><line x1="8" y1="6" x2="16" y2="6"></line><line x1="16" y1="14" x2="16.01" y2="14"></line><line x1="16" y1="10" x2="16.01" y2="10"></line><line x1="16" y1="18" x2="16.01" y2="18"></line><line x1="12" y1="14" x2="12.01" y2="14"></line><line x1="12" y1="10" x2="12.01" y2="10"></line><line x1="12" y1="18" x2="12.01" y2="18"></line><line x1="8" y1="14" x2="8.01" y2="14"></line><line x1="8" y1="10" x2="8.01" y2="10"></line><line x1="8" y1="18" x2="8.01" y2="18"></line></svg>
         <h3>Accounting Services</h3>
-        <p>Full-cycle accounting designed to keep your business financially healthy, structurally sound, and compliant year-round.</p>
+        <p>Full cycle accounting designed to keep your business financially healthy, structurally sound, and compliant year round.</p>
       </a>
-      <a href="/services/tax-preparation-irvine-ca/" class="service-card large-card hover-lift">
+      <a href="{{ '/services/tax-preparation-irvine-ca/' | relative_url }}" class="service-card large-card hover-lift">
         <svg class="icon-lg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#f19e3b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
         <h3>Tax Preparation</h3>
         <p>Accurate, strategic tax returns for businesses, families, and professionals to minimize liability and maximize returns.</p>
       </a>
-      <a href="/services/bookkeeping-irvine-ca/" class="service-card large-card hover-lift">
+      <a href="{{ '/services/bookkeeping-irvine-ca/' | relative_url }}" class="service-card large-card hover-lift">
         <svg class="icon-lg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#f19e3b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
         <h3>Bookkeeping</h3>
-        <p>Meticulous organization of your daily financial transactions, ensuring your records are always audit-ready and clear.</p>
+        <p>Meticulous organization of your daily financial transactions, ensuring your records are always audit ready and clear.</p>
       </a>
-      <a href="/services/small-business-accountant-irvine-ca/" class="service-card large-card hover-lift">
+      <a href="{{ '/services/small-business-accountant-irvine-ca/' | relative_url }}" class="service-card large-card hover-lift">
         <svg class="icon-lg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#f19e3b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
         <h3>Small Business Accounting</h3>
         <p>Customized financial strategies and reporting specifically tailored for growing Irvine enterprises and startups.</p>
       </a>
-      <a href="/services/payroll-services-irvine-ca/" class="service-card large-card hover-lift">
+      <a href="{{ '/services/payroll-services-irvine-ca/' | relative_url }}" class="service-card large-card hover-lift">
         <svg class="icon-lg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#f19e3b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
         <h3>Payroll Services</h3>
         <p>Reliable, compliant payroll processing so your team is paid on time, every time, without the administrative headache.</p>
       </a>
-      <a href="/services/irs-tax-resolution-irvine-ca/" class="service-card large-card hover-lift">
+       <a href="{{ '/services/business-tax-filing-irvine-ca/' | relative_url }}" class="service-card large-card hover-lift">
+        <svg class="icon-lg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#f19e3b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><path d="M9 22v-4h6v4"></path><path d="M8 6h.01"></path><path d="M16 6h.01"></path><path d="M12 6h.01"></path><path d="M12 10h.01"></path><path d="M12 14h.01"></path><path d="M16 10h.01"></path><path d="M16 14h.01"></path><path d="M8 10h.01"></path><path d="M8 14h.01"></path></svg>
+        <h3>Business Tax Filing</h3>
+        <p>Navigating complex corporate, LLC, and partnership tax codes to ensure strict compliance.</p>
+      </a>
+      <a href="{{ '/services/irs-tax-resolution-irvine-ca/' | relative_url }}" class="service-card large-card hover-lift">
         <svg class="icon-lg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#f19e3b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="M12 8v4"></path><path d="M12 16h.01"></path></svg>
         <h3>IRS Tax Resolution</h3>
-        <p>Professional representation and proven strategies by Enrolled Agents to resolve audits, notices, and back-tax issues safely.</p>
+        <p>Professional representation and proven strategies by Enrolled Agents to resolve audits, notices, and back tax issues safely.</p>
       </a>
     </div>
   </div>
@@ -99,7 +104,7 @@ hide_global_cta: true
       <div class="local-text">
         <h2 class="section-title text-white">Local Expertise for Southern California</h2>
         <p class="text-white">Based in Irvine, CA, we deeply understand the unique economic landscape and stringent California state tax requirements that local businesses face. Whether your headquarters are right here in Orange County, expanding into San Bernardino County, or serving clients down in San Diego County, regional knowledge matters.</p>
-        <p class="text-white">We help Southern California business owners and families navigate state-specific compliance, local tax codes, and regional financial planning with absolute precision.</p>
+        <p class="text-white">We help Southern California business owners and families navigate state specific compliance, local tax codes, and regional financial planning with absolute precision.</p>
       </div>
       <div class="local-visual">
         <div class="image-placeholder image-placeholder-medium shimmer-dark">
@@ -177,39 +182,45 @@ hide_global_cta: true
     <h2 class="section-title text-center">Meet the Accounting Services Pro Team</h2>
     <p class="section-intro text-center">Local Irvine accounting professionals dedicated to your financial success and IRS compliance.</p>
     
-    <div class="team-grid">
-      <div class="team-member hover-lift">
-        <div class="image-placeholder image-placeholder-profile shimmer"></div>
+    <div class="team-feature">
+      <div class="team-image">
+        <div class="image-placeholder image-placeholder-profile shimmer">
+          <span>[ Image Placeholder: Carlin Khachatourian ]</span>
+        </div>
+      </div>
+      <div class="team-content">
         <h3>Carlin Khachatourian</h3>
         <p class="team-title text-orange">Founder</p>
         <p>With extensive experience in business record keeping and financial strategy, Carlin built Accounting Services Pro to provide Irvine and Orange County business owners with organized, trustworthy, and actionable accounting.</p>
       </div>
-      
-      <div class="team-member hover-lift">
-        <div class="image-placeholder image-placeholder-profile shimmer"></div>
-        <h3>Linda Khachatourian</h3>
-        <p class="team-title text-orange">Co-Founder & Tax Professional</p>
-        <p>A seasoned tax professional, Linda specializes in <a href="/services/tax-preparation-irvine-ca/">tax preparation</a> and strategic planning, ensuring families and growing businesses securely meet all California and federal tax requirements.</p>
-      </div>
-      
-      <div class="team-member hover-lift">
-        <div class="image-placeholder image-placeholder-profile shimmer"></div>
-        <h3>Ara Melikian, EA, MBA</h3>
-        <p class="team-title text-orange">Client Relations & Tax Advisor</p>
-        <p>Ara combines an MBA with Enrolled Agent (EA) credentials to offer highly authoritative <a href="/services/irs-tax-resolution-irvine-ca/">IRS tax resolution</a>. He prioritizes clear client communication and expert representation during complex tax situations.</p>
-      </div>
     </div>
-  </div>
-</section>
 
-<section class="final-cta section-dark text-center">
-  <div class="bg-glow dark-glow"></div>
-  <div class="container relative-z">
-    <h2 class="text-white">Ready to Take Control of Your Finances?</h2>
-    <p class="text-white">Partner with an Irvine accounting team that prioritizes your success and peace of mind.</p>
-    <div class="cta-buttons">
-      <a href="tel:+19492372281" class="btn btn-primary btn-large">(949) 237-2281</a>
-      <a href="/pages/schedule-consultation/" class="btn btn-secondary btn-large">Schedule a Consultation</a>
+    <div class="team-supporting team-grid">
+      <div class="team-profile">
+        <div class="team-image">
+           <div class="image-placeholder image-placeholder-profile shimmer">
+            <span>[ Image Placeholder: Linda Khachatourian ]</span>
+           </div>
+        </div>
+        <div class="team-content">
+          <h3>Linda Khachatourian</h3>
+          <p class="team-title text-orange">Co Founder & Tax Professional</p>
+          <p>A seasoned tax professional, Linda specializes in <a href="{{ '/services/tax-preparation-irvine-ca/' | relative_url }}">tax preparation</a> and strategic planning, ensuring families and growing businesses securely meet all California and federal tax requirements.</p>
+        </div>
+      </div>
+      
+      <div class="team-profile">
+        <div class="team-image">
+           <div class="image-placeholder image-placeholder-profile shimmer">
+             <span>[ Image Placeholder: Ara Melikian ]</span>
+           </div>
+        </div>
+        <div class="team-content">
+          <h3>Ara Melikian, EA, MBA</h3>
+          <p class="team-title text-orange">Client Relations & Tax Advisor</p>
+          <p>Ara combines an MBA with Enrolled Agent (EA) credentials to offer highly authoritative <a href="{{ '/services/irs-tax-resolution-irvine-ca/' | relative_url }}">IRS tax resolution</a>. He prioritizes clear client communication and expert representation during complex tax situations.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
