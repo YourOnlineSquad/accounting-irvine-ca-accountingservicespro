@@ -25,4 +25,16 @@
       servicesToggle.setAttribute('aria-expanded', String(servicesOpen));
     });
   }
+
+  document.addEventListener('keydown', function (event) {
+    if (event.key !== 'Escape') return;
+    if (servicesItem) {
+      servicesItem.classList.remove('is-open');
+      if (servicesToggle) servicesToggle.setAttribute('aria-expanded', 'false');
+    }
+    if (navPanel) {
+      navPanel.classList.remove('is-open');
+      if (menuToggle) menuToggle.setAttribute('aria-expanded', 'false');
+    }
+  });
 })();
