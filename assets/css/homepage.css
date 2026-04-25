@@ -1,1 +1,21 @@
+.page-hero .section-inner {
+  max-width: 55rem;
+}
 
+.page-hero p {
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  max-width: 48rem;
+}
+
+.service-grid .service-card h3 a {
+  text-decoration: none;
+}
+
+.service-grid .service-card h3 a:hover,
+.service-grid .service-card h3 a:focus-visible {
+  text-decoration: underline;
+}
+
+.trust-grid article {
+  border-left: 4px solid var(--orange);
+}
