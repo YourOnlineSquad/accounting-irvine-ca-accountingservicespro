@@ -1,14 +1,16 @@
 .section .section-inner > p {
   max-width: 70ch;
-  font-size: 1.08em;
+  font-size: 1.12em;
+  line-height: 1.8;
 }
 
 .content-grid article {
   border-left: 4px solid var(--navy);
+  padding-top: 2rem;
 }
 
 .section-header h2 {
   display: inline-block;
-  padding-bottom: 0.3rem;
+  padding-bottom: 0.45rem;
   border-bottom: 3px solid var(--orange);
 }
