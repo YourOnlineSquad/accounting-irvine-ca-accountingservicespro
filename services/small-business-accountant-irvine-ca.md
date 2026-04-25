@@ -7,8 +7,14 @@ permalink: /services/small-business-accountant-irvine-ca/
 
 <section class="page-hero section">
   <div class="section-inner">
-    <h1>Small Business Accountant Irvine CA for Owner-Led Growth</h1>
-    <p>Gain a financial partner who translates numbers into practical choices for staffing, pricing, and cash management.</p>
+    <div class="content-grid">
+      <article>
+        <h1><span class="gradient-text">Small Business Accountant Irvine CA for Owner-Led Growth</span></h1>
+        <p>Turn financial data into practical decisions for hiring, pricing, and cash control.</p>
+        <p><a href="tel:+19492372281" class="cta-button">Call (949) 237-2281</a></p>
+      </article>
+      <div class="image-placeholder" role="img" aria-label="Professional accounting consultation placeholder"></div>
+    </div>
   </div>
 </section>
 
@@ -16,9 +22,27 @@ permalink: /services/small-business-accountant-irvine-ca/
   <div class="section-inner">
     <header class="section-header"><h2>Common Problems</h2></header>
     <div class="content-grid">
-      <article><h3>Owners lack decision-ready reporting</h3><p>Without timely insights, growth decisions become guesswork.</p></article>
-      <article><h3>Compliance is handled reactively</h3><p>Tax and payroll issues are often addressed only when urgent.</p></article>
-      <article><h3>Processes stop scaling with growth</h3><p>As teams expand, old accounting workflows can break down.</p></article>
+      <article>
+        <h3>Owners lack timely insights</h3>
+        <p>Decisions are made without clear numbers.</p>
+      </article>
+      <article>
+        <h3>Compliance is reactive</h3>
+        <p>Urgent deadlines replace steady planning.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner">
+    <div class="content-grid">
+      <article>
+        <h2>Why Clients Switch to a Better Structure</h2>
+        <p>Clear workflows reduce surprises, delays, and rework.</p>
+        <p>Simple monthly rhythms improve visibility and confidence.</p>
+      </article>
+      <div class="image-placeholder" role="img" aria-label="Financial planning workspace placeholder"></div>
     </div>
   </div>
 </section>
@@ -27,9 +51,39 @@ permalink: /services/small-business-accountant-irvine-ca/
   <div class="section-inner">
     <header class="section-header"><h2>How Accounting Services Pro Helps</h2></header>
     <div class="service-grid">
-      <article class="service-card"><h3>Owner-focused analysis</h3><p>We convert financial statements into clear operational recommendations.</p></article>
-      <article class="service-card"><h3>Integrated compliance</h3><p>We align accounting activity with <a href="/services/business-tax-filing-irvine-ca/">Business Tax Filing Irvine CA</a> and filing calendars.</p></article>
-      <article class="service-card"><h3>Flexible service depth</h3><p>Support expands as needs grow, including <a href="/services/payroll-services-irvine-ca/">Payroll Services Irvine CA</a>.</p></article>
+      <article class="service-card">
+        <h3>Owner-focused reporting</h3>
+        <p>Translate statements into clear actions.</p>
+      </article>
+
+      <article class="service-card">
+        <h3>Recurring advisory cadence</h3>
+        <p>Review priorities monthly and quarterly.</p>
+      </article>
+    </div>
+    <div class="service-grid">
+
+      <article class="service-card">
+        <h3>Integrated compliance planning</h3>
+        <p>Coordinate accounting, payroll, and filing needs.</p>
+      </article>
+
+      <article class="service-card">
+        <h3>Scalable support</h3>
+        <p>Expand service depth as the business grows.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner">
+    <div class="content-grid">
+      <div class="image-placeholder" role="img" aria-label="Team meeting and financial review placeholder"></div>
+      <article>
+        <h2>Simple Process, Consistent Results</h2>
+        <p>We keep communication direct and deadlines visible at every step.</p>
+      </article>
     </div>
   </div>
 </section>
@@ -38,18 +92,31 @@ permalink: /services/small-business-accountant-irvine-ca/
   <div class="section-inner">
     <header class="section-header"><h2>Our Process</h2></header>
     <ol class="process-list">
-      <li>Business discovery meeting and priority mapping.</li>
-      <li>Review of books, controls, and reporting cadence.</li>
-      <li>Implementation of recurring monthly advisory workflow.</li>
-      <li>Quarterly planning sessions focused on growth and tax outcomes.</li>
+      <li>Initial review of priorities, records, and timelines.</li>
+      <li>Structured plan for cleanup, controls, and milestones.</li>
+      <li>Recurring monthly execution with clear checkpoints.</li>
+      <li>Ongoing advisory updates to stay proactive.</li>
     </ol>
   </div>
 </section>
 
 <section class="section">
   <div class="section-inner">
-    <header class="section-header"><h2>Local Service Area</h2></header>
-    <p>We serve small business owners in Irvine first, throughout Orange County regularly, and in San Bernardino County and San Diego County through remote support.</p>
+    <header class="section-header"><h2>Local Trust and Coverage</h2></header>
+    <div class="trust-grid">
+      <article>
+        <h3>Local Knowledge</h3>
+        <p>Irvine business owners get direct communication.</p>
+      </article>
+      <article>
+        <h3>Regional Reach</h3>
+        <p>Orange County companies receive ongoing advisory support.</p>
+      </article>
+      <article>
+        <h3>Reliable Access</h3>
+        <p>Remote partnership available across San Bernardino and San Diego counties.</p>
+      </article>
+    </div>
   </div>
 </section>
 
@@ -57,12 +124,12 @@ permalink: /services/small-business-accountant-irvine-ca/
   <div class="section-inner">
     <header class="section-header"><h2>FAQs</h2></header>
     <dl class="faq-list">
-      <dt>What size companies do you typically support?</dt>
-      <dd>We work with established and growing small businesses across many industries.</dd>
-      <dt>Can we start with bookkeeping and expand later?</dt>
-      <dd>Yes. Many owners begin with <a href="/services/bookkeeping-irvine-ca/">Bookkeeping Irvine CA</a> then add advisory support.</dd>
-      <dt>Do you provide tax-aware planning during the year?</dt>
-      <dd>Yes. Planning is coordinated with <a href="/services/tax-preparation-irvine-ca/">Tax Preparation Irvine CA</a>.</dd>
+      <dt>What size companies do you support?</dt>
+      <dd>Primarily owner-operated and growing small businesses.</dd>
+      <dt>Can we start small and expand later?</dt>
+      <dd>Yes, many clients begin with core monthly support.</dd>
+      <dt>Do you include tax-aware planning?</dt>
+      <dd>Yes, planning is built into recurring advisory work.</dd>
     </dl>
   </div>
 </section>
@@ -70,11 +137,18 @@ permalink: /services/small-business-accountant-irvine-ca/
 <section class="section">
   <div class="section-inner">
     <div class="cta-panel">
-      <h2>Looking for a Small Business Accountant Irvine CA Team?</h2>
-      <p>Call today to review your financial priorities and growth plans.</p>
+      <h2>Partner With a Small Business Accountant Irvine CA Team</h2>
+      <p>Call now for a focused conversation and next-step plan.</p>
       <p><a href="tel:+19492372281" class="cta-button">Call Now (949) 237-2281</a></p>
     </div>
   </div>
 </section>
 
-<!-- Schema suggestion for later: Service + FAQPage -->
+<section class="section">
+  <div class="section-inner">
+    <div class="cta-panel">
+      <p>Ready for clearer numbers and smarter decisions?</p>
+      <p><a href="tel:+19492372281" class="cta-button">Call (949) 237-2281</a></p>
+    </div>
+  </div>
+</section>
