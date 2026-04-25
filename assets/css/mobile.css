@@ -26,6 +26,7 @@
   .content-grid,
   .service-grid,
   .trust-grid {
+    grid-template-columns: 1fr;
     gap: 1.25rem;
   }
 
@@ -33,43 +34,5 @@
   .service-card,
   .trust-grid article {
     padding: 1.5rem;
-  }
-}
-
-@media (min-width: 48rem) {
-  .section {
-    padding: 4.75rem 1.75rem;
-  }
-
-  .content-grid,
-  .trust-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .service-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1.75rem;
-  }
-
-  .cta-panel {
-    padding: 2.5rem;
-  }
-}
-
-@media (min-width: 70rem) {
-  .content-grid,
-  .trust-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .service-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 1.9rem;
-  }
-
-  .content-grid article,
-  .service-card,
-  .trust-grid article {
-    padding: 2rem;
   }
 }
