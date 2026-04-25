@@ -188,17 +188,13 @@ p {
   gap: 1rem;
 }
 
-/* 2. Pain Points */
+/* 2. Pain Points (Updated: Editorial layout, removed boxes) */
 .pain-points {
   padding: 100px 0;
 }
 
 .content-block {
-  background: var(--white);
-  padding: 3rem;
-  border-radius: var(--border-radius);
-  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-  border-top: 4px solid var(--dark-blue);
+  padding: 1rem 0; /* Clean spacing without the boxed background */
 }
 
 .content-block h3 {
@@ -212,7 +208,7 @@ p {
   text-align: left;
 }
 
-/* 3. Services Overview */
+/* 3. Services Overview (Updated: Lighter shadows, reduced borders, more spacing) */
 .services-overview {
   padding: 100px 0;
   background-color: var(--white);
@@ -221,21 +217,22 @@ p {
 .services-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 2rem;
+  gap: 3rem; /* Increased from 2rem */
 }
 
 .service-card {
   display: block;
   text-decoration: none;
   background: var(--white);
-  border: 1px solid #eaeaea;
+  border: 1px solid #f4f4f4; /* Reduced border contrast */
   padding: 2.5rem;
   border-radius: var(--border-radius);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.02); /* Added subtle resting shadow */
   transition: box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
 .service-card:hover {
-  box-shadow: 0 10px 30px rgba(20, 46, 73, 0.08);
+  box-shadow: 0 8px 24px rgba(20, 46, 73, 0.05); /* Lighter hover shadow */
   border-color: var(--orange);
 }
 
@@ -269,7 +266,7 @@ p {
   text-align: left;
 }
 
-/* 5. Process Section */
+/* 5. Process Section (Updated: Slimmer cards) */
 .our-process {
   padding: 100px 0;
 }
@@ -283,10 +280,10 @@ p {
 
 .process-step {
   position: relative;
-  padding: 2rem;
+  padding: 1.5rem; /* Reduced from 2rem to make cards slimmer */
   background: var(--white);
   border-radius: var(--border-radius);
-  box-shadow: 0 2px 15px rgba(0,0,0,0.03);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.03); /* Slightly softer shadow */
   display: flex;
   flex-direction: column;
   align-items: center;
