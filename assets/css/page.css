@@ -1,5 +1,6 @@
 .section .section-inner > p {
-  max-width: 62ch;
+  max-width: 70ch;
+  font-size: 1.08em;
 }
 
 .content-grid article {

@@ -1,28 +1,43 @@
 @media (max-width: 40rem) {
   body {
-    font-size: 0.98rem;
+    font-size: 1.04rem;
+    line-height: 1.75;
   }
 
   .section {
-    padding: 2.25rem 1rem;
+    padding: 2.75rem 1rem;
   }
 
   .page-hero {
-    padding-top: 3rem;
+    padding-top: 3.5rem;
   }
 
   .cta-panel {
-    padding: 1.25rem;
+    padding: 1.5rem;
   }
 
   .cta-button {
     width: 100%;
+    font-size: 1.05rem;
+    min-height: 3.2rem;
+  }
+
+  .content-grid,
+  .service-grid,
+  .trust-grid {
+    gap: 1.25rem;
+  }
+
+  .content-grid article,
+  .service-card,
+  .trust-grid article {
+    padding: 1.35rem;
   }
 }
 
 @media (min-width: 48rem) {
   .section {
-    padding: 4rem 1.5rem;
+    padding: 4.75rem 1.75rem;
   }
 
   .content-grid,
@@ -43,6 +58,6 @@
   .content-grid article,
   .service-card,
   .trust-grid article {
-    padding: 1.5rem;
+    padding: 1.85rem;
   }
 }
