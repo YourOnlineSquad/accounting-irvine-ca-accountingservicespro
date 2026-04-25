@@ -21,8 +21,8 @@ body {
 
 body {
   font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  font-size: 1rem;
-  line-height: 1.6;
+  font-size: 1.0625rem;
+  line-height: 1.7;
   color: var(--navy);
   background: var(--white);
   text-rendering: optimizeLegibility;
@@ -49,17 +49,17 @@ h4 {
 }
 
 h1 {
-  font-size: clamp(1.75rem, 5vw, 2.75rem);
+  font-size: clamp(2rem, 5vw, 3.1rem);
   letter-spacing: -0.02em;
 }
 
 h2 {
-  font-size: clamp(1.4rem, 3.6vw, 2rem);
+  font-size: clamp(1.6rem, 3.8vw, 2.3rem);
   letter-spacing: -0.01em;
 }
 
 h3 {
-  font-size: clamp(1.1rem, 3vw, 1.35rem);
+  font-size: clamp(1.2rem, 3vw, 1.5rem);
 }
 
 p,
@@ -69,7 +69,7 @@ dd {
 }
 
 .section {
-  padding: 2.75rem 1rem;
+  padding: 3.5rem 1.25rem;
 }
 
 .section:nth-of-type(even) {
@@ -77,16 +77,16 @@ dd {
 }
 
 .section-inner {
-  width: min(100%, 72rem);
+  width: min(100%, 82rem);
   margin: 0 auto;
 }
 
 .section-header {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .page-hero {
-  padding: 3.75rem 1rem 2.75rem;
+  padding: 4.5rem 1.25rem 3.5rem;
   background: linear-gradient(180deg, rgba(20, 46, 73, 0.96), rgba(20, 46, 73, 0.9));
   color: var(--white);
 }
@@ -104,7 +104,7 @@ dd {
 .trust-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .content-grid article,
@@ -114,12 +114,13 @@ dd {
   background: var(--white);
   border: 1px solid var(--border-soft);
   border-radius: 0.8rem;
-  padding: 1.25rem;
+  padding: 1.6rem;
   box-shadow: var(--shadow-soft);
 }
 
 .service-card {
   border-top: 4px solid var(--orange);
+  min-height: 100%;
 }
 
 .process-list,
@@ -159,7 +160,7 @@ dd {
   background: var(--navy);
   color: var(--white);
   border-radius: 1rem;
-  padding: 1.5rem;
+  padding: 2rem;
   box-shadow: var(--shadow-soft);
 }
 
@@ -173,15 +174,18 @@ dd {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid var(--orange);
+  border: 3px solid var(--orange);
   border-radius: 999px;
   background: var(--orange);
   color: var(--navy);
   font-weight: 700;
   text-decoration: none;
-  padding: 0.7rem 1.2rem;
-  min-height: 2.75rem;
-  transition: background-color 180ms ease, color 180ms ease, transform 180ms ease;
+  font-size: 1.0625rem;
+  letter-spacing: 0.01em;
+  padding: 0.9rem 1.45rem;
+  min-height: 3.15rem;
+  box-shadow: 0 8px 20px rgba(20, 46, 73, 0.2);
+  transition: background-color 180ms ease, color 180ms ease, transform 180ms ease, box-shadow 180ms ease;
 }
 
 .cta-button:hover,
@@ -189,6 +193,7 @@ dd {
   background: var(--white);
   color: var(--navy);
   transform: translateY(-1px);
+  box-shadow: 0 12px 24px rgba(20, 46, 73, 0.25);
 }
 
 img {
