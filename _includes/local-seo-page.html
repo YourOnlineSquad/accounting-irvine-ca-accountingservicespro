@@ -1,0 +1,103 @@
+<section class="seo-section seo-section--hero seo-section--dark">
+  <div class="seo-shell seo-two-col">
+    <article>
+      <h1>{{ page.hero_title }}</h1>
+      <p class="seo-lead">{{ page.hero_copy }}</p>
+      <p><a href="{{ page.hero_cta_url | default: 'tel:+19492372281' }}" class="cta-button">{{ page.hero_cta_text | default: 'Call (949) 237-2281' }}</a></p>
+    </article>
+    <div class="image-placeholder" role="img" aria-label="{{ page.hero_image_alt | default: 'Service hero placeholder image' }}"></div>
+  </div>
+</section>
+
+<section class="seo-section seo-section--light">
+  <div class="seo-shell">
+    <header class="section-header"><h2>{{ page.problem_heading | default: 'Common Problems' }}</h2></header>
+    <div class="seo-two-col seo-feature-grid">
+      {% for item in page.problems limit:2 %}
+      <article class="seo-feature-block">
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.copy }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="seo-section seo-section--dark">
+  <div class="seo-shell seo-two-col seo-two-col--flip-mobile">
+    <div class="image-placeholder" role="img" aria-label="{{ page.solution_image_alt | default: 'Solution section image placeholder' }}"></div>
+    <article>
+      <h2>{{ page.solution_heading }}</h2>
+      {% for paragraph in page.solution_paragraphs %}
+      <p>{{ paragraph }}</p>
+      {% endfor %}
+    </article>
+  </div>
+</section>
+
+<section class="seo-section seo-section--light">
+  <div class="seo-shell">
+    <header class="section-header"><h2>{{ page.benefits_heading | default: 'How We Help' }}</h2></header>
+    <div class="seo-two-col seo-card-grid">
+      {% for card in page.benefit_cards %}
+      <article class="service-card seo-large-card">
+        <h3>{{ card.title }}</h3>
+        <p>{{ card.copy }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="seo-section seo-section--dark">
+  <div class="seo-shell">
+    <header class="section-header"><h2>{{ page.process_heading | default: 'Our Process' }}</h2></header>
+    <ol class="process-list seo-process-list">
+      {% for step in page.process_steps %}
+      <li>
+        <span class="seo-step-number">{{ forloop.index }}</span>
+        <div>
+          <h3>{{ step.title }}</h3>
+          <p>{{ step.copy }}</p>
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="seo-section seo-section--light">
+  <div class="seo-shell">
+    <header class="section-header"><h2>{{ page.local_trust_heading | default: 'Local Trust and Coverage' }}</h2></header>
+    <div class="seo-two-col seo-card-grid">
+      {% for trust in page.local_trust %}
+      <article class="seo-large-card">
+        <h3>{{ trust.title }}</h3>
+        <p>{{ trust.copy }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="seo-section seo-section--dark">
+  <div class="seo-shell">
+    <header class="section-header"><h2>{{ page.faq_heading | default: 'Frequently Asked Questions' }}</h2></header>
+    <dl class="faq-list">
+      {% for qa in page.faqs %}
+      <dt>{{ qa.question }}</dt>
+      <dd>{{ qa.answer }}</dd>
+      {% endfor %}
+    </dl>
+  </div>
+</section>
+
+<section class="seo-section seo-section--light">
+  <div class="seo-shell">
+    <div class="cta-panel">
+      <h2>{{ page.final_cta_heading }}</h2>
+      <p>{{ page.final_cta_copy }}</p>
+      <p><a href="{{ page.final_cta_url | default: 'tel:+19492372281' }}" class="cta-button">{{ page.final_cta_text | default: 'Call (949) 237-2281' }}</a></p>
+    </div>
+  </div>
+</section>
