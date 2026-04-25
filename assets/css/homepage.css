@@ -1,14 +1,20 @@
 /* Homepage Specific Styling
-  Colors: Dark Blue #142e49, Orange #f19e3b, White #ffffff, Gray #a7a8a7
+  Brand Colors: Dark Blue #142e49, Orange #f19e3b, White #ffffff, Gray #a7a8a7
 */
 
 :root {
   --dark-blue: #142e49;
+  --dark-blue-hover: #0d2033;
   --orange: #f19e3b;
+  --orange-hover: #d8872a;
   --white: #ffffff;
   --gray: #a7a8a7;
-  --light-gray: #f8f9fa;
+  --light-gray: #f9fafb; /* Lighter, cooler premium gray */
+  --border-light: #e5e7eb;
+  --text-main: #334155;
   --border-radius: 6px; 
+  --shadow-subtle: 0 4px 12px rgba(20, 46, 73, 0.04);
+  --shadow-hover: 0 12px 28px rgba(20, 46, 73, 0.08);
 }
 
 /* Global Homepage Resets & Containers */
@@ -35,30 +41,31 @@
   text-align: center;
 }
 
-.section-title {
-  font-size: 2.5rem;
+/* Premium Typography Hierarchy */
+h1, h2, h3 {
+  font-family: inherit;
+  letter-spacing: -0.02em; /* Tighter headings for modern feel */
   color: var(--dark-blue);
-  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-size: 2.75rem;
+  margin-bottom: 1.5rem;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.15;
 }
 
 .section-intro {
-  font-size: 1.2rem;
-  color: #4a4a4a;
-  max-width: 800px;
-  margin-bottom: 3rem;
+  font-size: 1.25rem;
+  color: var(--text-main);
+  max-width: 65ch; /* Optimal reading width */
+  margin: 0 auto 3.5rem auto;
   line-height: 1.6;
-}
-
-/* Typography Overrides for Homepage */
-h1, h2, h3 {
-  font-family: inherit;
 }
 
 p {
   line-height: 1.7;
-  color: #333333;
+  color: var(--text-main);
   font-size: 1.1rem;
 }
 
@@ -84,17 +91,17 @@ p {
   margin-top: 2px;
 }
 
-/* Buttons */
+/* Buttons - Premium Treatment */
 .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 14px 28px;
-  font-size: 1rem;
+  padding: 14px 32px;
+  font-size: 1.05rem;
   font-weight: 600;
   text-decoration: none;
   border-radius: var(--border-radius);
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  transition: all 0.3s ease;
   cursor: pointer;
   border: 2px solid transparent;
 }
@@ -102,11 +109,14 @@ p {
 .btn-primary {
   background-color: var(--orange);
   color: var(--white);
+  box-shadow: 0 4px 10px rgba(241, 158, 59, 0.2); /* Soft orange glow */
 }
 
 .btn-primary:hover {
-  background-color: #d8872a; 
+  background-color: var(--orange-hover);
   color: var(--white);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(241, 158, 59, 0.3);
 }
 
 .btn-secondary {
@@ -121,119 +131,156 @@ p {
 }
 
 .btn-large {
-  padding: 16px 36px;
-  font-size: 1.1rem;
+  padding: 16px 40px;
+  font-size: 1.15rem;
 }
 
 /* Layout Utilities */
 .two-col-layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  align-items: start;
-}
-
-.align-center {
+  gap: 5rem;
   align-items: center;
 }
 
-/* Image Placeholders */
+/* Image Placeholders - Intentional & Architectural */
 .image-placeholder {
-  background-color: #e9ecef;
-  border: 2px dashed var(--gray);
+  background-color: #f0f2f5;
+  border: 1px solid var(--border-light);
   border-radius: var(--border-radius);
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--gray);
   font-weight: 500;
+  font-size: 0.95rem;
   text-align: center;
   padding: 2rem;
   width: 100%;
+  position: relative;
+  overflow: hidden;
 }
 
-.image-placeholder-large { min-height: 500px; }
-.image-placeholder-medium { min-height: 400px; }
+/* Subtle corner accents for placeholders */
+.image-placeholder::before, .image-placeholder::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--gray);
+  opacity: 0.3;
+}
+.image-placeholder::before { top: 1rem; left: 1rem; border-right: none; border-bottom: none; }
+.image-placeholder::after { bottom: 1rem; right: 1rem; border-left: none; border-top: none; }
+
+.image-placeholder-large { min-height: 540px; }
+.image-placeholder-medium { min-height: 460px; }
 .image-placeholder-tall { min-height: 600px; }
 
-/* 1. Hero Section */
+/* 1. Hero Section - More Breathing Room & Soft Background */
 .home-hero {
-  padding: 100px 0;
-  background-color: var(--white);
+  padding: 110px 0 120px;
+  background: linear-gradient(180deg, var(--white) 0%, var(--light-gray) 100%);
+  border-bottom: 1px solid var(--border-light);
 }
 
 .hero-container {
   display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
+  grid-template-columns: 1.1fr 0.9fr;
   gap: 4rem;
   align-items: center;
 }
 
 .hero-content h1 {
-  font-size: 3.5rem;
+  font-size: 3.8rem;
   color: var(--dark-blue);
   line-height: 1.1;
   margin-bottom: 1.5rem;
 }
 
 .hero-subtitle {
-  font-size: 1.25rem;
-  color: #4a4a4a;
-  margin-bottom: 2.5rem;
-  max-width: 600px;
+  font-size: 1.35rem;
+  color: var(--text-main);
+  margin-bottom: 3rem;
+  max-width: 55ch;
+  line-height: 1.6;
 }
 
 .hero-actions {
   display: flex;
-  gap: 1rem;
+  gap: 1.25rem;
 }
 
-/* 2. Pain Points (Updated: Editorial layout, removed boxes) */
+/* 2. Pain Points - Editorial Layout */
 .pain-points {
-  padding: 100px 0;
+  padding: 110px 0;
+  background-color: var(--white);
+}
+
+.pain-points .two-col-layout {
+  align-items: start;
 }
 
 .content-block {
-  padding: 1rem 0; /* Clean spacing without the boxed background */
+  padding: 0;
+  position: relative;
+}
+
+/* Add a subtle accent line instead of a box */
+.content-block::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  background-color: var(--orange);
+  margin-bottom: 2rem;
+}
+
+.content-block svg {
+  margin: 0 0 1.5rem 0; /* Left align icon for editorial feel */
 }
 
 .content-block h3 {
   color: var(--dark-blue);
   font-size: 1.8rem;
-  margin-bottom: 1rem;
-  text-align: center;
+  margin-bottom: 1.25rem;
+  text-align: left;
 }
 
 .content-block p {
   text-align: left;
+  max-width: 55ch;
 }
 
-/* 3. Services Overview (Updated: Lighter shadows, reduced borders, more spacing) */
+/* 3. Services Overview - Refined Cards */
 .services-overview {
-  padding: 100px 0;
-  background-color: var(--white);
+  padding: 110px 0;
+  background-color: var(--light-gray);
+  border-top: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--border-light);
 }
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 3rem; /* Increased from 2rem */
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 2.5rem;
 }
 
 .service-card {
   display: block;
   text-decoration: none;
   background: var(--white);
-  border: 1px solid #f4f4f4; /* Reduced border contrast */
-  padding: 2.5rem;
+  border: 1px solid var(--border-light);
+  padding: 3rem 2.5rem;
   border-radius: var(--border-radius);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.02); /* Added subtle resting shadow */
-  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+  box-shadow: var(--shadow-subtle);
+  transition: all 0.3s ease;
 }
 
 .service-card:hover {
-  box-shadow: 0 8px 24px rgba(20, 46, 73, 0.05); /* Lighter hover shadow */
-  border-color: var(--orange);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+  border-color: #d1d5db; /* Keep border neutral, let shadow do the work */
 }
 
 .service-card h3 {
@@ -250,64 +297,82 @@ p {
 
 .service-card p {
   margin: 0;
-  color: #555555;
-  text-align: left;
+  color: var(--text-main);
+  text-align: center;
 }
 
-/* 4. Local Section */
+/* 4. Local Section - Richer Dark Theme */
 .local-expertise {
-  padding: 100px 0;
+  padding: 120px 0;
+}
+
+.local-text h2 {
+  margin-bottom: 1.5rem;
 }
 
 .local-text p {
   font-size: 1.2rem;
-  margin-bottom: 1.5rem;
-  opacity: 0.9;
+  margin-bottom: 1.75rem;
+  opacity: 0.85;
   text-align: left;
+  max-width: 55ch;
+  line-height: 1.8;
 }
 
-/* 5. Process Section (Updated: Slimmer cards) */
+/* Adjust placeholder for dark background */
+.section-dark .image-placeholder {
+  background-color: #1a3655;
+  border-color: #2c4a6b;
+  color: #5c7b9e;
+}
+.section-dark .image-placeholder::before, 
+.section-dark .image-placeholder::after {
+  border-color: #2c4a6b;
+}
+
+/* 5. Process Section - Slimmer & Elegant */
 .our-process {
-  padding: 100px 0;
+  padding: 110px 0;
+  background-color: var(--white);
 }
 
 .process-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
+  gap: 2.5rem;
   margin-top: 4rem;
 }
 
 .process-step {
   position: relative;
-  padding: 1.5rem; /* Reduced from 2rem to make cards slimmer */
-  background: var(--white);
-  border-radius: var(--border-radius);
-  box-shadow: 0 2px 10px rgba(0,0,0,0.03); /* Slightly softer shadow */
+  padding: 0; /* Remove card padding for an open editorial layout */
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start; /* Align left for cleaner reading */
 }
 
+/* Premium number treatment */
 .step-number {
-  background-color: var(--orange);
-  color: var(--white);
-  width: 32px;
-  height: 32px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.1rem;
-  font-weight: 700;
-  border-radius: 4px;
-  margin-bottom: 1.5rem;
+  background-color: transparent;
+  color: var(--orange);
+  width: auto;
+  height: auto;
+  display: block;
+  font-size: 3rem;
+  font-weight: 300; /* Sleeker, lighter font weight */
+  border-radius: 0;
+  margin-bottom: 1rem;
+  line-height: 1;
 }
 
 .process-step h3 {
   color: var(--dark-blue);
   font-size: 1.4rem;
   margin-bottom: 1rem;
-  text-align: center;
+  text-align: left;
 }
 
 .process-step p {
@@ -315,46 +380,53 @@ p {
   width: 100%;
 }
 
-/* 6. Trust & EEAT */
+/* 6. Trust & EEAT - Balanced */
 .trust-eeat {
-  padding: 100px 0;
-  background-color: var(--white);
+  padding: 110px 0;
+  background-color: var(--light-gray);
+  border-top: 1px solid var(--border-light);
 }
 
 .trust-list {
   list-style: none;
   padding: 0;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
 }
 
 .trust-list li {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.75rem;
   display: flex;
   align-items: flex-start;
-  gap: 1rem;
-  font-size: 1.1rem;
-  color: #333333;
+  gap: 1.25rem;
+  font-size: 1.15rem;
+  color: var(--text-main);
+  line-height: 1.6;
 }
 
 .trust-text p {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   text-align: left;
+  max-width: 55ch;
 }
 
-/* 7. Final CTA */
+/* 7. Final CTA - Strong Conversion */
 .final-cta {
-  padding: 120px 0;
+  padding: 140px 0;
+  background-color: var(--dark-blue);
 }
 
 .final-cta h2 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+  font-size: 3.2rem;
+  margin-bottom: 1.25rem;
 }
 
 .final-cta p {
-  font-size: 1.3rem;
-  margin-bottom: 3rem;
+  font-size: 1.35rem;
+  margin-bottom: 3.5rem;
   opacity: 0.9;
+  max-width: 60ch;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cta-buttons {
@@ -364,11 +436,12 @@ p {
 }
 
 .final-cta .btn-secondary {
-  border-color: var(--white);
+  border-color: rgba(255, 255, 255, 0.3);
   color: var(--white);
 }
 
 .final-cta .btn-secondary:hover {
   background-color: var(--white);
   color: var(--dark-blue);
+  border-color: var(--white);
 }
