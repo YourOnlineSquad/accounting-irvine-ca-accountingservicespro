@@ -54,12 +54,12 @@
   }
 
   .services-mega-menu {
-    gap: 0.25rem;
-    padding: 0.42rem;
+    gap: 0.45rem;
+    padding: 0.58rem;
   }
 
   .service-link {
-    padding: 0.62rem 0.45rem;
+    padding: 0.72rem 0.62rem;
   }
 
   .nav-phone {
