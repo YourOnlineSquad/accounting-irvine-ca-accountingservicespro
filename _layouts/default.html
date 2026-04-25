@@ -5,17 +5,17 @@
   <title>{{ page.title }}</title>
   <meta name="description" content="{{ page.description }}">
 
-  <link rel="stylesheet" href="/assets/css/style.css">
-  <link rel="stylesheet" href="/assets/css/mobile.css">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/mobile.css' | relative_url }}">
 
   {% if page.url == "/" %}
-    <link rel="stylesheet" href="/assets/css/homepage.css">
+    <link rel="stylesheet" href="{{ '/assets/css/homepage.css' | relative_url }}">
   {% elsif page.layout == "service" %}
-    <link rel="stylesheet" href="/assets/css/service.css">
+    <link rel="stylesheet" href="{{ '/assets/css/service.css' | relative_url }}">
   {% elsif page.layout == "page" %}
-    <link rel="stylesheet" href="/assets/css/page.css">
+    <link rel="stylesheet" href="{{ '/assets/css/page.css' | relative_url }}">
   {% elsif page.layout == "blog" %}
-    <link rel="stylesheet" href="/assets/css/blog.css">
+    <link rel="stylesheet" href="{{ '/assets/css/blog.css' | relative_url }}">
   {% endif %}
 </head>
 
@@ -29,7 +29,7 @@
   {% include cta.html %}
   {% include footer.html %}
 
-  <script src="/assets/js/main.js"></script>
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
 
 </body>
 </html>
