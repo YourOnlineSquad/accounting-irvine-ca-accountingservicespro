@@ -446,7 +446,7 @@ img {
 }
 
 .nav-phone {
-  display: inline-flex;
+  display: none;
   justify-content: center;
   align-items: center;
   margin-top: 0.7rem;
@@ -459,6 +459,10 @@ img {
   width: 100%;
   min-height: 2.9rem;
   padding: 0.65rem 1rem;
+}
+
+.nav-panel.is-open + .nav-phone {
+  display: inline-flex;
 }
 
 .nav-phone:hover,
@@ -636,6 +640,7 @@ img {
   }
 
   .nav-phone {
+    display: inline-flex;
     width: auto;
     margin-top: 0;
     min-height: 2.5rem;
