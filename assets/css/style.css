@@ -7,6 +7,9 @@
   --bg-card: rgba(167, 168, 167, 0.1);
   --border-soft: rgba(20, 46, 73, 0.14);
   --shadow-soft: 0 10px 30px rgba(20, 46, 73, 0.08);
+  --space-section-y: 4.25rem;
+  --space-section-x: 1.25rem;
+  --space-grid: 1.6rem;
 }
 
 * {
@@ -70,7 +73,7 @@ dd {
 }
 
 .section {
-  padding: 4.25rem 1.25rem;
+  padding: var(--space-section-y) var(--space-section-x);
 }
 
 .section:nth-of-type(even) {
@@ -105,7 +108,7 @@ dd {
 .trust-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1.6rem;
+  gap: var(--space-grid);
 }
 
 .content-grid article,
@@ -213,4 +216,42 @@ dd {
 img {
   max-width: 100%;
   height: auto;
+}
+
+@media (min-width: 48rem) {
+  .section {
+    padding: 4.75rem 1.75rem;
+  }
+
+  .content-grid,
+  .trust-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .service-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.75rem;
+  }
+
+  .cta-panel {
+    padding: 2.5rem;
+  }
+}
+
+@media (min-width: 70rem) {
+  .content-grid,
+  .trust-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .service-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.9rem;
+  }
+
+  .content-grid article,
+  .service-card,
+  .trust-grid article {
+    padding: 2rem;
+  }
 }
