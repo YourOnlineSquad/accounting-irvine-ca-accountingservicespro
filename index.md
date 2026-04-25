@@ -2,7 +2,6 @@
 layout: default
 title: Expert Accounting Services in Irvine CA | Accounting Services Pro
 description: Premium accounting, tax preparation, bookkeeping, and payroll services for businesses and individuals in Irvine, Orange County, and Southern California.
-hide_global_cta: true
 ---
 
 <section class="home-hero">
@@ -223,17 +222,6 @@ hide_global_cta: true
           </li>
         </ul>
       </div>
-    </div>
-  </div>
-</section>
-
-<section class="final-cta section-dark text-center">
-  <div class="container">
-    <h2 class="text-white">Ready to Take Control of Your Finances?</h2>
-    <p class="text-white">Partner with an Irvine accounting team that prioritizes your success and peace of mind.</p>
-    <div class="cta-buttons">
-      <a href="tel:+19492372281" class="btn btn-primary btn-large">(949) 237-2281</a>
-      <a href="/pages/schedule-consultation/" class="btn btn-secondary btn-large">Schedule a Consultation</a>
     </div>
   </div>
 </section>
