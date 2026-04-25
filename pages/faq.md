@@ -1,85 +1,77 @@
 ---
 layout: page
-title: Accounting FAQ in Irvine CA | Accounting Services Pro
-description: Answers to common accounting, tax preparation, bookkeeping, small business accounting, and IRS tax resolution questions in Irvine CA.
+title: Accounting Services Irvine CA FAQ | Accounting Services Pro
+description: FAQ for Accounting Services Irvine CA covering tax preparation, bookkeeping, payroll, business tax filing, and IRS tax resolution.
 permalink: /pages/faq/
 ---
 
 <section class="page-hero section">
   <div class="section-inner">
-    <h1>Frequently Asked Questions</h1>
-    <p>Find clear answers to common client questions about accounting and tax support in Irvine and nearby communities.</p>
+    <h1>Accounting Services Irvine CA FAQ</h1>
+    <p>Answers to common questions from Irvine clients deciding which accounting service fits their needs.</p>
   </div>
 </section>
 
-<section class="section section-general-faq">
+<section class="section">
   <div class="section-inner">
-    <h2>General Accounting Questions</h2>
+    <header class="section-header"><h2>General Questions</h2></header>
     <dl class="faq-list">
-      <dt>Do you offer year-round accounting support?</dt>
-      <dd>Yes. We provide ongoing services to keep records accurate beyond tax season.</dd>
-      <dt>Can you work with both businesses and individuals?</dt>
-      <dd>Yes. We support business accounting and individual tax-related needs.</dd>
+      <dt>Do you provide support beyond tax season?</dt>
+      <dd>Yes. Most clients use year-round support for better decisions and fewer surprises.</dd>
+      <dt>Do you work with both businesses and individuals?</dt>
+      <dd>Yes. We support owner-led businesses, professionals, and households.</dd>
+      <dt>Where is your main service focus?</dt>
+      <dd>Irvine is our primary focus, with regular client work across Orange County.</dd>
     </dl>
   </div>
 </section>
 
-<section class="section section-tax-faq">
+<section class="section">
   <div class="section-inner">
-    <h2>Tax Preparation Questions</h2>
+    <header class="section-header"><h2>Service Questions</h2></header>
     <dl class="faq-list">
-      <dt>How early should I start tax preparation?</dt>
-      <dd>Starting early gives more time to resolve documentation issues and evaluate tax-saving options.</dd>
-      <dt>What if I received a tax notice?</dt>
-      <dd>Save the notice and contact us promptly so deadlines and response requirements can be reviewed.</dd>
+      <dt>Can I combine bookkeeping and tax support?</dt>
+      <dd>Yes. Combining <a href="/services/bookkeeping-irvine-ca/">Bookkeeping Irvine CA</a> and <a href="/services/tax-preparation-irvine-ca/">Tax Preparation Irvine CA</a> often improves accuracy.</dd>
+      <dt>Do you offer payroll and accounting together?</dt>
+      <dd>Yes. Integrated services can reduce duplicate work and reporting conflicts.</dd>
+      <dt>Can you help with IRS notices?</dt>
+      <dd>Yes. We provide support through <a href="/services/irs-tax-resolution-irvine-ca/">IRS Tax Resolution Irvine CA</a>.</dd>
     </dl>
   </div>
 </section>
 
-<section class="section section-bookkeeping-faq">
+<section class="section">
   <div class="section-inner">
-    <h2>Bookkeeping Questions</h2>
+    <header class="section-header"><h2>Process Questions</h2></header>
+    <ol class="process-list">
+      <li>Start with a consultation to clarify goals and deadlines.</li>
+      <li>Share records that support your priority issue.</li>
+      <li>Review a proposed service plan and sequence.</li>
+      <li>Move into recurring support with clear communication checkpoints.</li>
+    </ol>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner">
+    <header class="section-header"><h2>Location Questions</h2></header>
     <dl class="faq-list">
-      <dt>Can you clean up prior bookkeeping periods?</dt>
-      <dd>Yes. Cleanup is often completed before moving to recurring monthly support.</dd>
-      <dt>How often should books be reconciled?</dt>
-      <dd>At minimum monthly, and more frequently for higher transaction volumes.</dd>
+      <dt>Do you only work in Irvine?</dt>
+      <dd>We focus on Irvine first and serve the broader Orange County market.</dd>
+      <dt>Can you support nearby counties?</dt>
+      <dd>Yes. We support clients in San Bernardino County and San Diego County through remote and scheduled meetings.</dd>
     </dl>
   </div>
 </section>
 
-<section class="section section-small-business-faq">
-  <div class="section-inner">
-    <h2>Small Business Accounting Questions</h2>
-    <dl class="faq-list">
-      <dt>Do you provide advisory guidance, not just data entry?</dt>
-      <dd>Yes. We provide analysis and recommendations tied to business decisions.</dd>
-      <dt>Can services scale as my business grows?</dt>
-      <dd>Yes. Reporting and planning support can expand as operations become more complex.</dd>
-    </dl>
-  </div>
-</section>
-
-<section class="section section-irs-faq">
-  <div class="section-inner">
-    <h2>IRS Tax Resolution Questions</h2>
-    <dl class="faq-list">
-      <dt>Can you help with unresolved IRS balances?</dt>
-      <dd>Yes. We review your situation and help outline realistic resolution pathways.</dd>
-      <dt>Do I need to respond immediately to IRS letters?</dt>
-      <dd>Yes. Most notices include strict deadlines that should be addressed promptly.</dd>
-    </dl>
-  </div>
-</section>
-
-<section class="section section-cta">
+<section class="section">
   <div class="section-inner">
     <div class="cta-panel">
-      <h2>Need Answers Specific to Your Situation?</h2>
-      <p>Get direct guidance based on your records, deadlines, and goals.</p>
-      <p><a href="/pages/schedule-consultation/">Schedule a consultation</a> or explore <a href="/services/irs-tax-resolution-irvine-ca/">IRS tax resolution services</a>.</p>
+      <h2>Still Need Help Choosing a Service?</h2>
+      <p>Compare <a href="/services/accountant-irvine-ca/">Accountant Irvine CA</a> with <a href="/services/business-tax-filing-irvine-ca/">Business Tax Filing Irvine CA</a>, then call for guidance.</p>
+      <p><a href="tel:+19492372281" class="cta-button">Call Now (949) 237-2281</a></p>
     </div>
   </div>
 </section>
 
-<!-- Schema Suggestions: FAQPage -->
+<!-- Schema suggestion for later: FAQPage -->
