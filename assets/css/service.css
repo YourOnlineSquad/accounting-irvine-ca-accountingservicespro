@@ -1,1 +1,19 @@
+body {
+  background: linear-gradient(180deg, rgba(167, 168, 167, 0.15), var(--white) 18rem);
+}
 
+.process-list {
+  background: var(--white);
+  border: 1px solid var(--border-soft);
+  border-radius: 0.8rem;
+  padding: 1rem 1.25rem 0.25rem 2rem;
+}
+
+.process-list li::marker {
+  color: var(--orange);
+  font-weight: 700;
+}
+
+.service-grid .service-card {
+  min-height: 100%;
+}

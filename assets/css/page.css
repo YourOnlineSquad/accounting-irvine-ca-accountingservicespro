@@ -1,1 +1,13 @@
+.section .section-inner > p {
+  max-width: 62ch;
+}
 
+.content-grid article {
+  border-left: 4px solid var(--navy);
+}
+
+.section-header h2 {
+  display: inline-block;
+  padding-bottom: 0.3rem;
+  border-bottom: 3px solid var(--orange);
+}

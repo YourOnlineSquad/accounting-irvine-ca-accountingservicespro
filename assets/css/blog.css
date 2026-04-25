@@ -1,1 +1,28 @@
+.blog-list,
+.post-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
 
+.blog-card,
+.post-list li {
+  background: var(--white);
+  border: 1px solid var(--border-soft);
+  border-radius: 0.8rem;
+  padding: 1.25rem;
+  box-shadow: var(--shadow-soft);
+}
+
+.blog-meta {
+  color: var(--gray);
+  font-size: 0.92rem;
+  margin-bottom: 0.75rem;
+}
+
+.post-content {
+  max-width: 75ch;
+}
