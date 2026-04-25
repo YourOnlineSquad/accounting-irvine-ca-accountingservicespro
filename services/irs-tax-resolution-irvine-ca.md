@@ -7,8 +7,14 @@ permalink: /services/irs-tax-resolution-irvine-ca/
 
 <section class="page-hero section">
   <div class="section-inner">
-    <h1>IRS Tax Resolution Irvine CA for Urgent Tax Issues</h1>
-    <p>Respond quickly and strategically to IRS notices with support designed to protect options and restore compliance.</p>
+    <div class="content-grid">
+      <article>
+        <h1><span class="gradient-text">IRS Tax Resolution Irvine CA for Urgent Notice Response</span></h1>
+        <p>Take control quickly with a practical response plan and clear next actions.</p>
+        <p><a href="tel:+19492372281" class="cta-button">Call (949) 237-2281</a></p>
+      </article>
+      <div class="image-placeholder" role="img" aria-label="Professional accounting consultation placeholder"></div>
+    </div>
   </div>
 </section>
 
@@ -16,9 +22,27 @@ permalink: /services/irs-tax-resolution-irvine-ca/
   <div class="section-inner">
     <header class="section-header"><h2>Common Problems</h2></header>
     <div class="content-grid">
-      <article><h3>Notices are technical and stressful</h3><p>Many taxpayers are unsure which deadlines matter most.</p></article>
-      <article><h3>Unfiled returns delay resolution</h3><p>Missing periods can block progress and increase pressure.</p></article>
-      <article><h3>Next steps are unclear</h3><p>Without guidance, delays can reduce available solutions.</p></article>
+      <article>
+        <h3>Notice deadlines feel overwhelming</h3>
+        <p>Missing dates reduces available options.</p>
+      </article>
+      <article>
+        <h3>Unfiled returns block progress</h3>
+        <p>Cases stall until compliance gaps are fixed.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner">
+    <div class="content-grid">
+      <article>
+        <h2>Why Clients Switch to a Better Structure</h2>
+        <p>Clear workflows reduce surprises, delays, and rework.</p>
+        <p>Simple monthly rhythms improve visibility and confidence.</p>
+      </article>
+      <div class="image-placeholder" role="img" aria-label="Financial planning workspace placeholder"></div>
     </div>
   </div>
 </section>
@@ -27,9 +51,39 @@ permalink: /services/irs-tax-resolution-irvine-ca/
   <div class="section-inner">
     <header class="section-header"><h2>How Accounting Services Pro Helps</h2></header>
     <div class="service-grid">
-      <article class="service-card"><h3>Notice review and prioritization</h3><p>We clarify due dates and required responses.</p></article>
-      <article class="service-card"><h3>Document preparation support</h3><p>We organize filings and financial records needed for case progress.</p></article>
-      <article class="service-card"><h3>Long-term compliance recovery</h3><p>We connect resolution work with <a href="/services/tax-preparation-irvine-ca/">Tax Preparation Irvine CA</a> and <a href="/services/accountant-irvine-ca/">Accountant Irvine CA</a>.</p></article>
+      <article class="service-card">
+        <h3>Notice triage and prioritization</h3>
+        <p>Identify what to address first and why.</p>
+      </article>
+
+      <article class="service-card">
+        <h3>Compliance catch-up support</h3>
+        <p>Prepare missing filings required for progress.</p>
+      </article>
+    </div>
+    <div class="service-grid">
+
+      <article class="service-card">
+        <h3>Case documentation workflow</h3>
+        <p>Organize records for each response step.</p>
+      </article>
+
+      <article class="service-card">
+        <h3>Forward compliance plan</h3>
+        <p>Prevent repeat issues after resolution.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner">
+    <div class="content-grid">
+      <div class="image-placeholder" role="img" aria-label="Team meeting and financial review placeholder"></div>
+      <article>
+        <h2>Simple Process, Consistent Results</h2>
+        <p>We keep communication direct and deadlines visible at every step.</p>
+      </article>
     </div>
   </div>
 </section>
@@ -38,18 +92,31 @@ permalink: /services/irs-tax-resolution-irvine-ca/
   <div class="section-inner">
     <header class="section-header"><h2>Our Process</h2></header>
     <ol class="process-list">
-      <li>Review notices, records, and immediate deadlines.</li>
-      <li>Identify compliance gaps and required filings.</li>
-      <li>Build a response strategy with clear milestones.</li>
-      <li>Monitor progress and maintain forward compliance.</li>
+      <li>Initial review of priorities, records, and timelines.</li>
+      <li>Structured plan for cleanup, controls, and milestones.</li>
+      <li>Recurring monthly execution with clear checkpoints.</li>
+      <li>Ongoing advisory updates to stay proactive.</li>
     </ol>
   </div>
 </section>
 
 <section class="section">
   <div class="section-inner">
-    <header class="section-header"><h2>Local Service Area</h2></header>
-    <p>IRS resolution support is focused on Irvine and Orange County taxpayers, with ongoing service for San Bernardino County and San Diego County clients.</p>
+    <header class="section-header"><h2>Local Trust and Coverage</h2></header>
+    <div class="trust-grid">
+      <article>
+        <h3>Local Knowledge</h3>
+        <p>Irvine taxpayers receive rapid local support.</p>
+      </article>
+      <article>
+        <h3>Regional Reach</h3>
+        <p>Orange County clients get structured follow-through.</p>
+      </article>
+      <article>
+        <h3>Reliable Access</h3>
+        <p>Remote service available across San Bernardino and San Diego counties.</p>
+      </article>
+    </div>
   </div>
 </section>
 
@@ -57,12 +124,12 @@ permalink: /services/irs-tax-resolution-irvine-ca/
   <div class="section-inner">
     <header class="section-header"><h2>FAQs</h2></header>
     <dl class="faq-list">
-      <dt>What should I do first after an IRS notice?</dt>
-      <dd>Keep the notice, track the deadline, and contact support quickly.</dd>
-      <dt>Can you help with unfiled returns?</dt>
-      <dd>Yes. We often start resolution by filing missing periods.</dd>
-      <dt>Which services help after resolution?</dt>
-      <dd>Many clients transition to <a href="/services/bookkeeping-irvine-ca/">Bookkeeping Irvine CA</a> and <a href="/services/business-tax-filing-irvine-ca/">Business Tax Filing Irvine CA</a>.</dd>
+      <dt>What should I do after receiving a notice?</dt>
+      <dd>Save it, note the deadline, and call promptly.</dd>
+      <dt>Can you help with older unfiled years?</dt>
+      <dd>Yes, resolution often starts with catch-up filing.</dd>
+      <dt>What happens after resolution?</dt>
+      <dd>We can transition you to ongoing compliance support.</dd>
     </dl>
   </div>
 </section>
@@ -70,11 +137,18 @@ permalink: /services/irs-tax-resolution-irvine-ca/
 <section class="section">
   <div class="section-inner">
     <div class="cta-panel">
-      <h2>Need IRS Tax Resolution Irvine CA Support Now?</h2>
-      <p>Call today so we can prioritize deadlines and response actions.</p>
+      <h2>Start IRS Tax Resolution Irvine CA Before Deadlines Escalate</h2>
+      <p>Call now for a focused conversation and next-step plan.</p>
       <p><a href="tel:+19492372281" class="cta-button">Call Now (949) 237-2281</a></p>
     </div>
   </div>
 </section>
 
-<!-- Schema suggestion for later: Service + FAQPage -->
+<section class="section">
+  <div class="section-inner">
+    <div class="cta-panel">
+      <p>Need immediate help with an IRS letter?</p>
+      <p><a href="tel:+19492372281" class="cta-button">Call (949) 237-2281</a></p>
+    </div>
+  </div>
+</section>
