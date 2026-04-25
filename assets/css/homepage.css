@@ -208,6 +208,10 @@ p {
   text-align: center;
 }
 
+.content-block p {
+  text-align: left;
+}
+
 /* 3. Services Overview */
 .services-overview {
   padding: 100px 0;
@@ -262,6 +266,7 @@ p {
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
   opacity: 0.9;
+  text-align: left;
 }
 
 /* 5. Process Section */
@@ -336,6 +341,7 @@ p {
 
 .trust-text p {
   font-size: 1.2rem;
+  text-align: left;
 }
 
 /* 7. Final CTA */
