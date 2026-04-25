@@ -30,8 +30,9 @@
   }
 
   if (servicesItem && servicesToggle) {
-    servicesToggle.addEventListener('click', function () {
+    servicesToggle.addEventListener('click', function (event) {
       if (desktopQuery.matches) return;
+      event.preventDefault();
       var servicesOpen = !servicesItem.classList.contains('is-open');
       setServicesOpen(servicesOpen);
     });
@@ -65,6 +66,18 @@
     });
   }
 
+
+  if (navPanel) {
+    navPanel.addEventListener('click', function (event) {
+      if (desktopQuery.matches) return;
+      var target = event.target;
+      if (!(target instanceof Element)) return;
+      if (!target.closest('.nav-links a, .service-link')) return;
+      navPanel.classList.remove('is-open');
+      if (menuToggle) menuToggle.setAttribute('aria-expanded', 'false');
+      setServicesOpen(false);
+    });
+  }
   document.addEventListener('click', function (event) {
     if (!servicesItem || !desktopQuery.matches) return;
     if (servicesItem.contains(event.target)) return;

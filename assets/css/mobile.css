@@ -1,74 +1,131 @@
-@media (max-width: 40rem) {
+@media (max-width: 48rem) {
+  html,
   body {
-    font-size: 1.06rem;
-    line-height: 1.8;
+    overflow-x: hidden;
   }
 
-  .section {
-    padding: 3.25rem 1rem;
+  body {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .site-nav {
+    position: sticky;
+    top: 0;
+  }
+
+  .nav-inner {
+    width: 100%;
+    padding: 0.6rem 0.8rem;
+    gap: 0.55rem;
+    align-items: center;
+  }
+
+  .brand {
+    font-size: 0.98rem;
+    max-width: calc(100% - 8.6rem);
+    line-height: 1.15;
+  }
+
+  .menu-toggle {
+    min-height: 2.75rem;
+    padding: 0.58rem 0.7rem;
+  }
+
+  .nav-panel {
+    width: 100%;
+    margin-top: 0.2rem;
+    padding: 0.45rem 0;
+  }
+
+  .nav-links {
+    gap: 0.4rem;
+  }
+
+  .nav-links a,
+  .services-toggle {
+    padding: 0.78rem 0.6rem;
+    min-height: 2.85rem;
+    font-size: 1rem;
+    border-radius: 0.45rem;
+  }
+
+  .services-mega-menu {
+    width: 100%;
+    margin-top: 0.35rem;
+    padding: 0;
+    gap: 0.5rem;
+  }
+
+  .nav-item-services.is-open .services-mega-menu {
+    padding: 0.62rem;
+  }
+
+  .service-link {
+    padding: 0.78rem 0.66rem;
+    border-radius: 0.45rem;
+  }
+
+  .nav-phone {
+    display: inline-flex;
+    width: auto;
+    margin-top: 0;
+    margin-left: auto;
+    padding: 0.68rem 0.78rem;
+    min-height: 2.85rem;
+    font-size: 0.95rem;
+    border-radius: 0.45rem;
   }
 
   .page-hero {
-    padding-top: 4.5rem;
-    padding-bottom: 3.5rem;
+    padding-top: 2.2rem;
+    padding-bottom: 2rem;
   }
 
-  .cta-panel {
-    padding: 1.75rem;
+  .page-hero h1 {
+    font-size: clamp(1.62rem, 7.1vw, 2rem);
+    line-height: 1.1;
+    margin-bottom: 0.55rem;
   }
 
-  .cta-button {
-    width: 100%;
-    font-size: 1.05rem;
-    min-height: 3.2rem;
+  .page-hero p {
+    line-height: 1.45;
+    margin-bottom: 0.75rem;
+  }
+
+  .section {
+    padding: 2.4rem 1rem;
   }
 
   .content-grid,
   .service-grid,
   .trust-grid {
     grid-template-columns: 1fr;
-    gap: 1.25rem;
+    gap: 1.35rem;
   }
 
   .content-grid article,
   .service-card,
-  .trust-grid article {
-    padding: 1.5rem;
-  }
-}
-
-@media (max-width: 40rem) {
-  .nav-inner {
-    padding: 0.7rem 0.9rem;
+  .trust-grid article,
+  .blog-card {
+    width: 100%;
+    padding: 1.35rem;
   }
 
-  .brand {
-    font-size: 1.03rem;
-    max-width: calc(100% - 8rem);
-    line-height: 1.2;
+  .cta-panel {
+    padding: 1.4rem;
   }
 
-  .nav-links a,
-  .services-toggle {
-    padding: 0.72rem 0.55rem;
-  }
-
-  .services-mega-menu {
-    gap: 0.45rem;
-    padding: 0.58rem;
-  }
-
-  .service-link {
-    padding: 0.72rem 0.62rem;
-  }
-
-  .nav-phone {
-    min-height: 3rem;
-    font-size: 1.03rem;
+  .cta-button {
+    width: 100%;
+    font-size: 1rem;
+    min-height: 3.15rem;
+    padding: 0.8rem 1rem;
+    border-radius: 0.45rem;
   }
 
   .footer-inner {
-    gap: 1.4rem;
+    gap: 1.35rem;
   }
 
   .footer-column ul {
